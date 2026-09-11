@@ -545,6 +545,10 @@
                         data: {},
                         isMenuActive(category_id) {
                             var params = new URLSearchParams(location.search);
+                            if (!params.get('c')) {
+                                var __cMatch = location.pathname.match(/@c=(\d+)/);
+                                if (__cMatch) params.set('c', __cMatch[1]);
+                            }
                             const current_category = this.data.article_category_list.find(item => item._id === params.get('c'));
                             return current_category && current_category.tree.indexOf(category_id) !== -1;
                         },
@@ -870,25 +874,25 @@
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=12768.html">已毕业学生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12768">已毕业学生</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=12632.html">科研助理</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12632">科研助理</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=12629.html">硕士生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12629">硕士生</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=12630.html">博士生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12630">博士生</a>
                             
                         </li>
                     
@@ -1256,6 +1260,10 @@ Web: https://orcid.org/0000-0001-5611-1621</a>
                     });
         
                     var params = new URLSearchParams(location.search);
+                    if (!params.get('c')) {
+                        var __cMatch = location.pathname.match(/@c=(\d+)/);
+                        if (__cMatch) params.set('c', __cMatch[1]);
+                    }
                     if (params) {
                         if (params.get('c') || params.get('l')) {
                             // 选中分类、标签代码参考

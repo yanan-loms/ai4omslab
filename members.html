@@ -540,6 +540,10 @@
                         data: {},
                         isMenuActive(category_id) {
                             var params = new URLSearchParams(location.search);
+                            if (!params.get('c')) {
+                                var __cMatch = location.pathname.match(/@c=(\d+)/);
+                                if (__cMatch) params.set('c', __cMatch[1]);
+                            }
                             const current_category = this.data.article_category_list.find(item => item._id === params.get('c'));
                             return current_category && current_category.tree.indexOf(category_id) !== -1;
                         },
@@ -865,25 +869,25 @@
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=11361.html">PhD Student</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=11361">PhD Student</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=11360.html">Master Student</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=11360">Master Student</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=12769.html">Alumni</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12769">Alumni</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html@c=12609.html">Research Assistant</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12609">Research Assistant</a>
                             
                         </li>
                     
@@ -1262,6 +1266,10 @@ Web: https://orcid.org/0000-0001-5611-1621</a>
                     });
         
                     var params = new URLSearchParams(location.search);
+                    if (!params.get('c')) {
+                        var __cMatch = location.pathname.match(/@c=(\d+)/);
+                        if (__cMatch) params.set('c', __cMatch[1]);
+                    }
                     if (params) {
                         if (params.get('c') || params.get('l')) {
                             // 选中分类、标签代码参考
