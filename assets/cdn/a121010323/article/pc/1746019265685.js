@@ -1,0 +1,1 @@
+document.write('<p>Welcome to Aowei for joining our research group! Aowei is from Beijing and completed his undergraduate studies at the School of Materials Science and Engineering at Shenzhen North University of China and Russia. He will focus on research related to the molecular design of MR-TADF materials and high-throughput screening.</p>');

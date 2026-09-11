@@ -1,0 +1,1 @@
+document.write('<p>База данных теперь доступна! Особая благодарность Aowei, Zhipeng и Shunyu за их участие и вклад! Обновления будут продолжаться...</p><p><a href="https://www.oledlibrary.com/" target="_blank">https://www.oledlibrary.com</a></p>');

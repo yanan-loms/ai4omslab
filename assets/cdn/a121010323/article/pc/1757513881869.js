@@ -1,0 +1,1 @@
+document.write('<p>恭喜朱老师获得国家自然科学基金青年基金资助！</p><p>下面是国家自然科学基金青年基金资助连接，点击可以跳转：</p><p><a href="https://www.nsfc.gov.cn/publish/portal0/tab1418/" target="_blank">LINK</a></p>');

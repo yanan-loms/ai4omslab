@@ -1,0 +1,1 @@
+document.write('<p>Наша обложка была выбрана в качестве титульной страницы журналом JPCL! Поздравляем Zhipeng с этой заслуженной наградой!</p><p><a href="https://pubs.acs.org/journal/jpclcd" target="_blank">LINK</a></p>');

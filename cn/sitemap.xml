@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+            <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+            <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            
+            <url>
+                    <loc>http://www.ai4omslab.net/cn/index.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/zhuyanan.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/research.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/yanjiulunwen.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/members.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/news.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/facilities.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/software.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/lianxi.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+            <url>
+                    <loc>http://www.ai4omslab.net/zhuyanan.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_68258.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66194.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66170.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66173.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66171.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66168.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66167.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66195.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_70534.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_69389.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_69385.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_67723.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66196.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66197.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66198.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66172.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66192.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66189.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66190.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66188.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66187.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66186.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66185.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66184.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66183.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66182.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66181.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66180.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66179.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66178.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66177.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66176.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66175.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66174.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
+                    <loc>http://www.ai4omslab.net/cn/article_66193.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-08-31</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+            
+            </urlset>

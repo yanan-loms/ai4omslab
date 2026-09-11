@@ -1,0 +1,1 @@
+document.write('<p>Front cover +1! JMCC has selected our design as the front cover for this issue! Congratulations to Professor Zhu and Professor Xing! (2024, Volume 12, Issue 27)</p><p><a href="https://pubs.rsc.org/en/content/articlelanding/2024/tc/d4tc01744g" target="_blank">LINK</a></p>');

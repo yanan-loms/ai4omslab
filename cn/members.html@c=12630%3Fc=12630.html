@@ -1,0 +1,2315 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>团队成员 - LOMS</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- removed cdn prefetch -->
+<link rel="shortcut icon" href="../assets/cdn/a121010323/1744097378504/weixintupian_20250408141137_r__529-76_c__273c62___oss_ico.png" type="image/x-icon">
+        <!-- twitter分享 -->
+        <meta property="twitter:url" content="/cn/members.html">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="null">
+
+        <!-- facebook分享 -->
+        <meta property="og:url" content="/cn/members.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="null">
+
+        <script>
+            // 分享到facebook
+            function shareFacebook() {
+                var _shareUrl = 'https://facebook.com/sharer/sharer.php?'; //真实的appkey，必选参数
+                _shareUrl += '&u=' + encodeURIComponent(location.href); //参数url设置分享的内容链接|默认当前页location，可选参数
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到twitter
+            function shareTwitter() {
+                var _shareUrl = 'https://twitter.com/intent/tweet/?'; //真实的appkey，必选参数
+                _shareUrl += '&text=' + encodeURIComponent('' || document.title); 
+                _shareUrl += '&url=' + encodeURIComponent(location.href); 
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到pinterest
+            function sharePinterest() {
+                var _shareUrl = 'https://pinterest.com/pin/create/button/?'; //真实的appkey，必选参数
+                _shareUrl += '&media=' + encodeURIComponent('null'); 
+                _shareUrl += '&description=' + encodeURIComponent('' || document.title); 
+                _shareUrl += '&url=' + encodeURIComponent(location.href); 
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到linkedin
+            function shareLinkedin() {
+                var _shareUrl = "https://www.linkedin.com/shareArticle?mini=true";
+                _shareUrl += "&title=" + encodeURIComponent('' || document.title);//分享标题
+                _shareUrl += "&url=" + encodeURIComponent(location.href);//分享链接
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到whatsapp
+            function shareWhatsapp() {
+                var _shareUrl = "https://api.whatsapp.com/send?";
+                _shareUrl += "&text=" + encodeURIComponent('' || document.title);//分享标题
+                _shareUrl += "&url=" + encodeURIComponent(location.href);//分享链接
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到vk.com
+            function shareVk() {
+                var _shareUrl = "https://vk.com/share.php?";
+                _shareUrl += "&title=" + encodeURIComponent('' || document.title);//分享标题
+                _shareUrl += "&url=" + encodeURIComponent(location.href);//分享链接
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到tumblr
+            function shareTumblr() {
+                var _shareUrl = "https://www.tumblr.com/widgets/share/tool?";
+                _shareUrl += "&title=" + encodeURIComponent('' || document.title);//分享标题
+                _shareUrl += "&url=" + encodeURIComponent(location.href);//分享链接
+                window.open(_shareUrl, '_blank');
+            }
+
+            // 分享到邮箱
+            function shareEmail() {
+                var _shareUrl = "mailto:?";
+                _shareUrl += "&subject=" + encodeURIComponent('' || document.title);//分享标题
+                _shareUrl += "&body=" + encodeURIComponent(location.href);//分享链接
+                window.open(_shareUrl, '_blank');
+            }
+
+            //分享到新浪微博   
+            function shareToSinaWB() {
+                var _shareUrl = 'https://service.weibo.com/share/share.php?'; //真实的appkey，必选参数
+                _shareUrl += '&url=' + encodeURIComponent(document.location); //参数url设置分享的内容链接|默认当前页location，可选参数
+                _shareUrl += '&title=' + encodeURIComponent(document.title); //参数title设置分享的标题|默认当前页标题，可选参数
+                _shareUrl += '&source=' + encodeURIComponent('');
+                _shareUrl += '&sourceUrl=' + encodeURIComponent('');
+                _shareUrl += '&content=' + 'utf-8'; //参数content设置页面编码gb2312|utf-8，可选参数
+                _shareUrl += '&pic=' + encodeURIComponent(''); //参数pic设置图片链接|默认为空，可选参数
+                window.open(_shareUrl, '_blank');
+            }
+        </script>
+    
+            <meta charset="UTF-8">
+            <script>
+                var docCookies = {
+    getItem: function (sKey) {
+        return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[-.+*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
+    },
+    setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+        if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+        var sExpires = "";
+        if (vEnd) {
+            switch (vEnd.constructor) {
+            case Number:
+                sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
+                break;
+            case String:
+                sExpires = "; expires=" + vEnd;
+                break;
+            case Date:
+                sExpires = "; expires=" + vEnd.toUTCString();
+                break;
+            }
+        }
+        document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+        return true;
+        },
+        removeItem: function (sKey, sPath, sDomain) {
+        if (!sKey || !this.hasItem(sKey)) { return false; }
+        document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + ( sDomain ? "; domain=" + sDomain : "") + ( sPath ? "; path=" + sPath : "");
+        return true;
+    },
+    hasItem: function (sKey) {
+        return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[-.+*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+    },
+    keys: /* optional method: you can safely remove it! */ function () {
+        var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+        for (var nIdx = 0; nIdx < aKeys.length; nIdx++) { aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]); }
+        return aKeys;
+    }
+};
+                if (location.hostname === 'a121010323.temp.cn3.caihongjianzhan.com') {
+                    if (!docCookies.getItem('login_name')) {
+                        location.href = 'http://a121010323.cn3.caihongjianzhan.com'
+                    }
+                }
+
+                if (location.hostname === 'a121010323.temp.cn3.caihongjianzhan.com') {
+                    window.addEventListener('load', () => {
+    // 统计网站加载的第三方文件
+    const thirdUrls = window.performance.getEntries()
+      .filter(item => item instanceof PerformanceResourceTiming)
+      .filter(item => {
+        // const url = new URL(item.name);
+        // 过滤不包含以下域名的请求
+        return ['data:', 'paypal.com', 'google.com/', 'googletagmanager.com', 'youtube.com', 'bdimg.com', 'baidu.com', 'cdn.xuansiwei.com', 'googleapis.com', 'gstatic.com', 'ttkefu.com', 'zvo.cn', 'caihongjianzhan.com', window.location.hostname].every(domain => !item.name.includes(domain));
+      })
+      .filter(item => item.name);
+
+      if (thirdUrls.length > 0) {
+        fetch('//cn2.caihongjianzhan.com/api/admin/md/public/mmtgabx4294/ip-search')
+          .then(res => res.json()).then(({isFind}) => {
+            if (isFind) {
+                let newDiv = document.createElement('div');
+                newDiv.innerHTML = `
+                    <div id="jiaogeiwo_analysis" style="padding: 16px; background-color: rgb(254 252 232); border-radius: 6px;">
+                      <div style="display: flex;">
+                        <div style="flex-shrink: 0;">
+                          <svg style="width: 20px; height: 20px; color: rgb(250 204 21)" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                          </svg>
+                        </div>
+                        <div style="margin-left: 12px;">
+                          <h3 style="font-size: 14px; line-height: 20px; font-weight: 500; color: rgb(133 77 14);">网站上的第三方链接</h3>
+                          <div style="margin-top: 8px; font-size: 14px; line-height: 20px; color: rgb(161 98 7);">
+                            <ul style="padding-left: 20px; word-break: break-all; list-style-type: disc;">
+                              ${thirdUrls.map(item => {
+                                return `<li>${item.name}<span style="font-weight: 700;">(${item.duration.toFixed(0)}ms)</span></li>`
+                              }).join("\n")}
+                            </ul>
+                          </div>
+                        </div>
+                        <div style="margin-left: auto; padding-left: 12px;">
+                          <div style="margin-left: -6px; margin-right: -6px; margin-top: -6px; margin-bottom: -6px;">
+                            <button onclick="jiaogeiwo_analysis.remove()" type="button" style="display: inline-flex; border-radius: 6px;background-color: rgb(254 252 232); padding: 6px; color: rgb(234 179 8);">
+                              <svg style="height: 20px; width: 20px;" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                `;
+                document.body.appendChild(newDiv);
+            }
+          })
+      }
+  });
+                }
+            </script>
+        </head>
+
+<body x-data="{}">
+
+
+
+
+
+
+
+
+    
+        <div component="header.html">
+            <link rel="stylesheet" href="../assets/cdn/common/lib/font-awesome/4.7.0/font-awesome.min.css">
+<link rel="stylesheet" href="../css/tailwind.css">
+<link rel="stylesheet" type="text/css" href="../css/customer.css">
+<script type="text/javascript" src="../js/jiaogeiwocommon.js"></script>
+<script src="../assets/cdn/common/lib/alpinejs/3.4.2/components-v2.js"></script>
+<script src="../assets/cdn/common/lib/alpinejs/3.9.6/intersect.min.js" defer=""></script>
+<script src="../assets/cdn/common/lib/alpinejs/3.10.2/alpinejs.min.js" defer=""></script>
+<script src="../assets/cdn/common/lib/jquery/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="../assets/cdn/common/lib/swiper/7.0.8/swiper-bundle.min.css">
+<script src="../assets/cdn/common/lib/swiper/7.0.8/swiper-bundle.min.js"></script>
+
+<style>
+    * {
+        font-family: "Times New Roman", Times, serif !important;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div component="menus.js" data="{'color': '', 'skin': 'colored', 'is_fixed_top': true, 'is_transparent': false, 'align': 'between'}">
+            
+        
+        <div component="config.js">
+            
+        <style>
+            :root {
+                --color-primary: #112855;
+                --color-primary-rgb: 17 40 85;
+                --color-primary-rgb-50: 38 90 191;
+                --color-primary-rgb-100: 34 80 170;
+                --color-primary-rgb-200: 30 70 149;
+                --color-primary-rgb-300: 26 60 127;
+                --color-primary-rgb-400: 21 50 106;
+                --color-primary-rgb-500: 17 40 85;
+                --color-primary-rgb-600: 13 30 64;
+                --color-primary-rgb-700: 8 20 42;
+                --color-primary-rgb-800: 4 10 21;
+                --color-primary-rgb-900: 0 0 0;
+            }
+            .cn {display: none!important;}
+            
+
+            /* 解决当preflight设置为false的时候，一些通用模块出现了兼容性问题 */
+            *,
+            ::before,
+            ::after {
+                box-sizing: border-box;
+                /* 1 */
+                border-width: 0;
+                /* 2 */
+                border-style: solid;
+                /* 2 */
+                border-color: #e5e7eb;
+                /* 2 */
+            }
+            button {
+                background-color: transparent;
+                border: 0;
+            }
+        </style>
+        <!-- default en font -->
+        
+        <link href="../assets/fonts/pt-serif/pt-serif.css" rel="stylesheet">
+        <style>
+            body {
+                font-family: "PT Serif", serif;
+            }
+        </style>
+        
+        <!-- sweetalert2 -->
+        <!-- sweetalert2 -->
+        <style>
+            .swal2-popup {font-size: 16px;}
+            div:where(.swal2-container) {z-index: 106000;}
+        </style>
+        <script src="../assets/cdn/common/lib/sweetalert2/11.10.3/sweetalert2.11.js"></script>
+        <script>
+            // 当网站被嵌入到iframe中时，如果发现链接属于栏目中的就要跳转到栏目的链接
+            try {
+                if (top !== self && window.location.hostname === top.location.hostname && ["/","/index.html","/zhuyanan.html","/research.html","/yanjiulunwen.html","/members.html","/news.html","/null.html","/publications.html","/album.html","/facilities.html","/software.html","/lianxi.html","/null.html","/null.html","/null.html","/null.html","/ru.html","/cn.html","/en.html","/yuyan.html","/cnlogin.html","/terms.html","/privacy.html","/refund.html","/cookie_policy.html","/videos.html","/downloads.html","/partners.html","/certificate.html","/gallery.html","/teams.html","/faq.html","/404.html","/custom_news.html","/custom_article.html","/custom_products.html","/custom_product.html","/member.html","/404.html"].includes(location.pathname)) {
+                    top.location.href = location.href;
+                }
+            } catch(e) {
+                console.error(e);
+            }
+
+            document.addEventListener("alpine:init", () => {
+                // 全局config组件
+                Alpine.store('config', {
+                    data: {"公共":{"color":"#112855","language":"en","site_type":"view","currency":"","font":"","logo":"../assets/cdn/a121010323/1744097378504/weixintupian_20250408141137_r__529-76_c__273c62___oss_webp.png","logo_transparent":"","icon":"","文章默认缩略图":"../assets/cdn/a121010323/1744092704682/weixintupian_20250408141137_r__529-76_c__273c62___oss_webp.png","产品默认缩略图":"","公司名称":"LOMS","公司电话":"18126341816","公司手机":"18126341816","公司微信":"18126341816","公司邮箱":"zhuyn@smbu.edu.cn","公司地址":"#深圳市龙岗区国际大学园路深圳北理莫斯科大学主楼446","公司口号":"","公司简介":"","备案号":"","水印":"","facebook":"https://www.facebook.com/profile.php?id=100073187349249","twitter":"https://twitter.com/jiaogeiwo","instagram":"https://www.instagram.com/caihongjianzhan","pinterest":"https://www.pinterest.com/jiaogeiwo","youtube":"https://www.youtube.com/channel/UCTBaEC0JyJRo4pvWo7YN67Q","tiktok":"","linkedin":"","skype":"skype:skype_account?call","whatsapp":"https://web.whatsapp.com/send?phone=用客户whatsapp号码替换&amp;text=你好","telegram":"https://t.me/用客户telegram号码替换","weibo":"","weixin":"","douyin":"","屏蔽国内IP":false,"网站禁止复制":false,"webp":true,"文章固定链接是否启用":false,"产品固定链接是否启用":false,"热门搜索关键词":"","网站关键词":"深圳北理莫斯科大学，有机光电，计算模拟，朱亚楠，AI4OLED，AI4S"},"文章":{"作者默认值":"LOMS","文章标签可选值":"","扩展字段1别名":"","扩展字段2别名":"","扩展字段3别名":""},"产品":{"品牌默认值":"","产品原价默认值":"","产品现价默认值":"","库存默认值":"9999","产品标签可选值":"","扩展字段1别名":"","扩展字段2别名":"","扩展字段3别名":"","默认属性":""}},
+                    indexs: {},
+                    init: function() {
+                        let indexs = {};
+                        Object.keys(this.data).map(key => {
+                            const obj = this.data[key];
+                            indexs = {...indexs, ...obj}
+                        });
+                        this.indexs = indexs;
+                    },
+                    val: function(key) {
+                        return this.indexs[key];
+                    },
+                });
+
+                // 全局form提交组件
+                Alpine.store('form', {
+                  init() {},
+                  uploadFile(formDataArr) {
+                        return Promise.all(formDataArr.map(item => {
+                            if (item[1] instanceof File) {
+                                const fd = new FormData();
+                                fd.append('file', item[1]);
+                                return fetch('//yun-api.sungdell.com/upload-file?siteName=a121010323', {
+                                    mode: 'cors',
+                                    method: 'POST',
+                                    body: fd,
+                                }).then(res => {
+                                    return res.json();
+                                }).then(res => {
+                                    console.log('res is',res);
+                                    return [item[0], res.url];
+                                })
+                            }
+                            return item;
+                        }))
+                  },
+                  submitData(event) {
+                    // 表单提交 @submit.prevent="$store.form.submitData($event)"
+                    const formData = new FormData(event.target);
+                    const formDataArr = Array.from(formData.entries());
+                    return Promise.resolve()
+                        .then(() => {
+                            // 上传附件
+                            return this.uploadFile(formDataArr);
+                        })
+                        .then((newFormDataArr) => {
+                            console.info(newFormDataArr);
+                            const values = newFormDataArr.map((item) => {
+                                console.info(item);
+                                return {
+                                    name: item[0],
+                                    label: $(event.target).find('label[for="' + item[0] + '"]').text().trim() || item[0],
+                                    value: item[1]
+                                };
+                            });
+                            console.info(values);
+                            return fetch(event.target.getAttribute('action') || '//yun-api.sungdell.com/customer-form?d=a121010323.cn3.caihongjianzhan.com&aid=3650&fid=4486', {
+                              method: 'POST',
+                              headers: {
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json',
+                              },
+                              body: JSON.stringify(values)
+                            })
+                            .then(response => response.json())
+                            .then(data => {
+                              console.info(data);
+                              if (data && data.status === 0) {
+                                return Promise.resolve(data)
+                              }
+                                return Promise.reject(data);
+                            })
+                            .then((data) => {
+                                const email = data.data.email || 'zhuyn@smbu.edu.cn';
+                                if (email) {
+                                    var emailObj = {
+                                        body: {
+                                            greeting: '您好',
+                                            signature: '交给我建站',
+                                            name,
+                                            intro: '这是您的后台表单数据',
+                                            table: {
+                                                data: values.map(item=>({name: item.label, value: item.value}))
+                                            },
+                                            action: {
+                                                instructions: '您可以登录你的后台查看全部数据:',
+                                                button: {
+                                                    color: '#3869D4',
+                                                    text: '点击进入',
+                                                    link: 'http://a121010323.cn3.caihongjianzhan.com'
+                                                }
+                                            },
+                                            outro: '感谢您的使用，您遇到任务问题都可以联系我们的售后'
+                                        }
+                                    }
+                                    return fetch('//yun-api.sungdell.com/send-email?email=' + email, {
+                                        method: 'POST',
+                                        headers: {
+                                            'Content-Type': 'application/x-www-form-urlencoded',
+                                            'Accept': 'application/json',
+                                        },
+                                        body: "subject=表单数据&emailObj=" + encodeURIComponent(JSON.stringify(emailObj)),
+                                        
+                                    }).then(response => response.json())
+                                      .then(data => {
+                                        console.log(data);
+                                        if (data && data.status === 0) {
+                                            console.info('发送邮件成功');
+                                            return Promise.resolve();
+                                        }
+                                        return Promise.reject(data);
+                                        
+                                      });
+                                }
+                                return Promise.resolve();
+                            })
+                            .then(() => {
+                                Swal.fire({
+                                    title: 'Thank you for your message!',
+                                    text: 'I will reply to you as soon as possible, thank you！',
+                                    icon: 'success',
+                                    confirmButtonText: 'OK',
+                                    customClass: {
+                                        confirmButton: 'text-white bg-primary border-primary rounded-lg py-2 px-4 text-center text-xl transition-all brightness-100 hover:brightness-90'
+                                    },
+                                    buttonsStyling: false
+                                })
+                            })
+                            .catch(e => {
+                                Swal.fire({
+                                    title: 'Thank you for your message!',
+                                    text: e.message || e,
+                                    icon: 'error',
+                                    confirmButtonText: 'OK',
+                                    customClass: {
+                                        confirmButton: 'text-white bg-primary border-primary rounded-lg py-2 px-4 text-center text-xl transition-all brightness-100 hover:brightness-90'
+                                    },
+                                    buttonsStyling: false
+                                })
+                            })
+                        })
+                  }
+                });
+            });
+        </script>
+        
+        
+        
+        
+        <script>
+            // 设置主题色
+            localStorage.setItem('primary_color', '#112855');
+            localStorage.setItem('primary_color_rgb', '17 40 85');
+
+            // 设置语言
+            if (!localStorage.getItem('i18nextLng') || (localStorage.getItem('i18nextLng') && !localStorage.getItem('to'))) {
+                localStorage.setItem('i18nextLng', 'en');
+            }
+            // 根据浏览器自动设置语言
+            //translateByLang('en', navigator.language);
+            
+            // 设置货币
+            if (!localStorage.getItem('currency')) {
+                localStorage.setItem('currency', 'USD');
+                localStorage.setItem('currency_ratio', 1);
+            }
+            // 根据浏览器语言选择货币
+            //localStorage.setItem('currency', getCurrencyByLang(navigator.language));
+
+            // 设置正式域名
+            localStorage.setItem('prod_domain', 'ai4omslab.net');
+
+            // 设置logo
+            localStorage.setItem('logo', '../assets/cdn/a121010323/1744097378504/weixintupian_20250408141137_r__529-76_c__273c62___oss_webp.png');
+            localStorage.setItem('company_name', 'LOMS');
+        </script>
+        
+            <script>
+                document.addEventListener('alpine:init', () => {
+                    Alpine.store('cache', {
+                        data: {},
+                        isMenuActive(category_id) {
+                            var params = new URLSearchParams(location.search);
+                            const current_category = this.data.article_category_list.find(item => item._id === params.get('c'));
+                            return current_category && current_category.tree.indexOf(category_id) !== -1;
+                        },
+                        getTop() { // 顶层分类
+                            return this.data.article_category_list.filter(item => !item.parent_id);
+                        },
+                        getChild(parent_id) {
+                            return this.data.article_category_list.filter(item => item.parent_id === parent_id);
+                        },
+                        getRecommend(name) { // 推荐分类
+                            return this.data.article_category_list.filter(item => (item.labels || []).includes(name || '推荐'));
+                        },
+                        getThumbImg(url) { // 生成缩略图
+                            let thumb_img = 'data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=';
+                            if (url) {
+                                if (url.toLowerCase().indexOf('.mp4') !== -1) {
+                                    return url;
+                                }
+                                thumb_img = url;
+                                if (url instanceof Array) {
+                                    thumb_img = url[0];
+                                }
+                                if (thumb_img.indexOf('x-oss-process') === -1) {
+                                    thumb_img = thumb_img + '?x-oss-process=image/resize,w_1000/format,webp';
+                                }
+                            }
+                            return thumb_img;
+                        },
+                    });
+                })
+            </script>
+        
+    
+        </div>
+    
+        <!-- 默认首页进入加载动画 
+        <dynamic-load component="loading.js"></dynamic-load>
+        -->
+        <!-- 默认栏目顶部 -->
+        
+        <div component="header_top.js">
+            
+        <div class="bg-gradient-to-r from-primary to-primary-900 text-white text-sm py-2 h-10 fixed top-0 right-0 left-0 z-[19998]">
+            <div class="max-w-8xl mx-auto h-full flex justify-center sm:justify-between items-center">
+            <div class="hidden sm:block"><span class="cn">欢迎来到</span><span class="en">WELCOME TO</span> <span>LOMS</span></div>
+            <div class="flex items-center gap-2 divide-x">
+                <div class="hidden sm:flex space-x-2 cn">
+                    <a href="members.html@c=12630%253Fc=12630.html" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5618 16.4109C9.21763 19.6608 2.16324 29.146 7.36253 35.9317C12.5618 42.7174 27.2821 40.0998 33.359 35.3193C39.4358 30.5388 38.836 27.5848 37.5184 26.2833C36.2009 24.9818 32.3556 26.297 31.2793 24.526C30.203 22.7551 33.1957 18.3311 30.6452 16.9312C28.0948 15.5313 23.6907 20.5811 21.7015 19.269C19.7122 17.9568 23.8906 13.6729 21.7015 12.4384C19.5123 11.204 15.906 13.161 12.5618 16.4109Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path><path d="M43.3787 16.5159C43.1435 13.3848 41.799 10.5632 39.7372 8.44277C37.7247 6.37311 35.0287 4.9715 32.0137 4.60229" stroke="#fff" stroke-width="4" stroke-linecap="round"></path><path d="M37.2919 16.9313C37.1627 15.2916 36.4247 13.8139 35.2928 12.7034C34.188 11.6195 32.7079 10.8855 31.0527 10.6921" stroke="#fff" stroke-width="4" stroke-linecap="round"></path><path d="M25 30C25 32.2091 22.3137 34 19 34C15.6863 34 13 32.2091 13 30C13 27.7909 15.6863 26 19 26C22.3137 26 25 27.7909 25 30Z" fill="#fff"></path></svg>
+                    </a>
+                    <a href="members.html@c=12630%253Fc=12630.html" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M36.9974 21.7112C36.8434 13.0079 29.7401 6 21 6C12.1634 6 5 13.1634 5 22C5 26.1701 6.59531 29.9676 9.20892 32.8154L8.01043 40.0257L15.125 36.9699C18.2597 38.0122 21.218 38.2728 24 37.7516" fill="none"></path><path d="M36.9974 21.7112C36.8434 13.0079 29.7401 6 21 6C12.1634 6 5 13.1634 5 22C5 26.1701 6.59531 29.9676 9.20892 32.8154L8.01043 40.0257L15.125 36.9699C18.2597 38.0122 21.218 38.2728 24 37.7516" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15.125 20.4667C16.3676 20.4667 17.375 19.4519 17.375 18.2C17.375 16.9482 16.3676 15.9333 15.125 15.9333C13.8824 15.9333 12.875 16.9482 12.875 18.2C12.875 19.4519 13.8824 20.4667 15.125 20.4667Z" fill="#fff"></path><path d="M24.125 20.4667C25.3676 20.4667 26.375 19.4519 26.375 18.2C26.375 16.9482 25.3676 15.9333 24.125 15.9333C22.8824 15.9333 21.875 16.9482 21.875 18.2C21.875 19.4519 22.8824 20.4667 24.125 20.4667Z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M38.7618 39.9293C37.0135 41.2302 34.8467 42 32.5 42C26.701 42 22 37.299 22 31.5C22 25.701 26.701 21 32.5 21C38.299 21 43 25.701 43 31.5C43 33.0997 42.6423 34.6159 42.0024 35.9728" fill="none"></path><path d="M38.7618 39.9293C37.0135 41.2302 34.8467 42 32.5 42C26.701 42 22 37.299 22 31.5C22 25.701 26.701 21 32.5 21C38.299 21 43 25.701 43 31.5C43 33.0997 42.6423 34.6159 42.0024 35.9728" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M42.0024 35.9728L43 42L38.7618 39.9293" fill="none"></path><path d="M42.0024 35.9728L43 42L38.7618 39.9293" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M35.6875 30.7999C34.7555 30.7999 34 30.0388 34 29.0999C34 28.161 34.7555 27.3999 35.6875 27.3999C36.6195 27.3999 37.375 28.161 37.375 29.0999C37.375 30.0388 36.6195 30.7999 35.6875 30.7999Z" fill="#fff"></path><path d="M28.9375 30.7999C28.0055 30.7999 27.25 30.0388 27.25 29.0999C27.25 28.161 28.0055 27.3999 28.9375 27.3999C29.8695 27.3999 30.625 28.161 30.625 29.0999C30.625 30.0388 29.8695 30.7999 28.9375 30.7999Z" fill="#fff"></path></svg>
+                    </a>
+                    <a href="members.html@c=12630%253Fc=12630.html" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.358 19.1399C15.4694 18.8558 11.3762 20.9553 9.07838 25.4384C5.63169 32.163 8.48026 43.1666 19.9788 43.1666C31.4774 43.1666 31.81 32.0554 31.81 30.8914C31.81 30.1154 31.81 25.7764 31.81 17.8746C34.2694 19.4323 36.343 20.37 38.0308 20.6877C39.7186 21.0053 40.7915 21.1461 41.2497 21.11V14.6343C39.6886 14.4461 38.3386 14.0873 37.1997 13.5581C35.4913 12.7643 32.1037 10.5611 32.1037 7.33208C32.106 7.34787 32.106 6.51493 32.1037 4.83325H24.9857C24.9645 20.6493 24.9645 29.3353 24.9857 30.8914C25.0175 33.2255 23.2068 36.4905 19.5355 36.4905C15.8642 36.4905 14.0535 33.2281 14.0535 31.1239C14.0535 29.8357 14.496 27.9685 16.3251 26.5858C17.4098 25.7658 18.9153 25.4384 21.358 25.4384C21.358 24.6828 21.358 22.5833 21.358 19.1399Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+                <div class="hidden sm:flex space-x-2 !border-l-0 en">
+                    <a href="https://www.facebook.com/profile.php?id=100073187349249" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M36 12.5997H31.2489H29.9871C28.9009 12.5997 28.0203 13.4803 28.0203 14.5666V21.4674H36L34.8313 29.0643H28.0203V43H19.2451V29.0643H12V21.4674H19.1515L19.2451 14.2563L19.2318 12.9471C19.1879 8.60218 22.6745 5.04434 27.0194 5.0004C27.0459 5.00013 27.0724 5 27.0989 5H36V12.5997Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path></svg>
+                    </a>
+                    <a href="https://twitter.com/jiaogeiwo" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 35.7622C6.92886 36.8286 20.8914 44.8773 30.8199 38.674C40.7483 32.4707 40.2006 21.7833 40.2006 16.886C41.1 15.0018 43 14.0439 43 8.9438C41.1337 10.6678 39.2787 11.2544 37.435 10.7036C35.6287 7.94957 33.1435 6.73147 29.9794 7.04934C25.2333 7.52614 23.4969 12.1825 24.0079 18.2067C16.6899 21.9074 10.9515 15.524 7.99418 10.7036C7.00607 14.4999 6.0533 19.0576 7.99418 24.0995C9.2881 27.4607 12.3985 30.3024 17.3254 32.6246C12.3323 35.3308 8.22382 36.3766 5 35.7622Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/caihongjianzhan" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M34 6H14C9.58172 6 6 9.58172 6 14V34C6 38.4183 9.58172 42 14 42H34C38.4183 42 42 38.4183 42 34V14C42 9.58172 38.4183 6 34 6Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path><path d="M24 32C28.4183 32 32 28.4183 32 24C32 19.5817 28.4183 16 24 16C19.5817 16 16 19.5817 16 24C16 28.4183 19.5817 32 24 32Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path><path d="M35 15C36.1046 15 37 14.1046 37 13C37 11.8954 36.1046 11 35 11C33.8954 11 33 11.8954 33 13C33 14.1046 33.8954 15 35 15Z" fill="#fff"></path></svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCTBaEC0JyJRo4pvWo7YN67Q" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.0637 10.4144C16.6069 10.1381 20.9183 10 23.998 10C27.0781 10 31.3911 10.1382 36.937 10.4145V10.4145C39.9391 10.5641 42.3672 12.9119 42.6176 15.9072C42.8712 18.9412 42.998 21.6134 42.998 23.9238C42.998 26.2626 42.8681 28.972 42.6082 32.0522H42.6082C42.3586 35.0103 39.9833 37.3412 37.021 37.5349C32.2796 37.845 27.9386 38 23.998 38C20.058 38 15.7186 37.845 10.9798 37.5351V37.5351C8.01852 37.3414 5.6437 35.0119 5.39288 32.055C5.12966 28.9518 4.99805 26.2414 4.99805 23.9238C4.99805 21.6341 5.12651 18.961 5.38345 15.9044L5.38346 15.9044C5.63514 12.9103 8.06274 10.564 11.0637 10.4144Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path><path d="M21 19.6092V28.406C21 28.8794 21.3838 29.2631 21.8571 29.2631C22.0252 29.2631 22.1896 29.2137 22.3298 29.1211L28.9274 24.7605C29.3223 24.4995 29.4308 23.9677 29.1698 23.5728C29.1074 23.4784 29.0269 23.3973 28.933 23.3341L22.3354 18.8979C21.9426 18.6337 21.41 18.7381 21.1458 19.1309C21.0508 19.2723 21 19.4388 21 19.6092Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path></svg>
+                    </a>
+                    <a href="https://www.pinterest.com/jiaogeiwo" target="_blank">
+                        <svg class="block" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291.319 291.319">
+                        <g>
+                            <path style="fill:#fff;" d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66c0,80.45-65.21,145.659-145.66,145.659   S0,226.109,0,145.66C0,65.219,65.21,0,145.659,0z"></path>
+                            <path style="fill:currentColor;" d="M150.066,63.781c-51.327,0-77.19,35.632-77.19,65.337c0,17.989,7.028,33.993,22.122,39.956   c2.467,0.974,4.698,0.036,5.408-2.613l2.203-8.403c0.728-2.613,0.446-3.541-1.548-5.826c-4.361-4.962-7.128-11.398-7.128-20.511   c0-26.428,20.42-50.089,53.175-50.089c29.014,0,44.945,17.161,44.945,40.075c0,30.152-13.783,55.606-34.248,55.606   c-11.289,0-19.755-9.04-17.042-20.156c3.241-13.237,9.541-27.539,9.541-37.107c0-8.548-4.743-15.704-14.575-15.704   c-11.553,0-20.829,11.571-20.829,27.074c0,9.878,3.45,16.551,3.45,16.551l-13.901,56.998c-4.124,16.906-0.61,37.644-0.319,39.738   c0.182,1.238,1.821,1.529,2.567,0.601c1.065-1.347,14.821-17.798,19.5-34.239c1.329-4.652,7.602-28.75,7.602-28.75   c3.751,6.946,14.721,13.046,26.383,13.046c34.712,0,58.273-30.652,58.273-71.674C218.444,92.676,191.315,63.781,150.066,63.781z"></path>
+                        </g>
+                        </svg>
+                    </a>
+                    <a href="members.html@c=12630%253Fc=12630.html" target="_blank">
+                        <svg class="block" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.358 19.1399C15.4694 18.8558 11.3762 20.9553 9.07838 25.4384C5.63169 32.163 8.48026 43.1666 19.9788 43.1666C31.4774 43.1666 31.81 32.0554 31.81 30.8914C31.81 30.1154 31.81 25.7764 31.81 17.8746C34.2694 19.4323 36.343 20.37 38.0308 20.6877C39.7186 21.0053 40.7915 21.1461 41.2497 21.11V14.6343C39.6886 14.4461 38.3386 14.0873 37.1997 13.5581C35.4913 12.7643 32.1037 10.5611 32.1037 7.33208C32.106 7.34787 32.106 6.51493 32.1037 4.83325H24.9857C24.9645 20.6493 24.9645 29.3353 24.9857 30.8914C25.0175 33.2255 23.2068 36.4905 19.5355 36.4905C15.8642 36.4905 14.0535 33.2281 14.0535 31.1239C14.0535 29.8357 14.496 27.9685 16.3251 26.5858C17.4098 25.7658 18.9153 25.4384 21.358 25.4384C21.358 24.6828 21.358 22.5833 21.358 19.1399Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path></svg>
+                    </a>
+                    <a class="text-white" href="members.html@c=12630%253Fc=12630.html" target="_blank">
+                        <svg class="block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+                <!--<div class="pl-2 !border-l-0 sm:border-l">
+                    <a class="flex items-center text-white" href="tel:18126341816">
+                        <svg class="block mr-1" width="14" height="14" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.9961 7.68583C17.7227 7.68583 18.3921 8.07985 18.7448 8.71509L21.1912 13.1219C21.5115 13.6989 21.5266 14.3968 21.2314 14.9871L18.8746 19.7008C18.8746 19.7008 19.5576 23.2122 22.416 26.0706C25.2744 28.929 28.7741 29.6002 28.7741 29.6002L33.487 27.2438C34.0777 26.9484 34.7761 26.9637 35.3533 27.2846L39.7726 29.7416C40.4072 30.0945 40.8008 30.7635 40.8008 31.4896L40.8008 36.5631C40.8008 39.1468 38.4009 41.0129 35.9528 40.1868C30.9249 38.4903 23.1202 35.2601 18.1734 30.3132C13.2265 25.3664 9.99631 17.5617 8.29977 12.5338C7.47375 10.0857 9.33984 7.68583 11.9235 7.68583L16.9961 7.68583Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"></path></svg>
+                        18126341816
+                    </a>
+                </div>-->
+                <div class="pl-2">
+                    <a class="flex items-center text-white" href="mailto:zhuyn@smbu.edu.cn">
+                        <svg class="block mr-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        zhuyn@smbu.edu.cn
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+        </div>
+    
+        <link rel="stylesheet" href="../assets/cdn/common/lib/navx/css/navigation.min.css">
+        <style>
+            :root {
+                --navigation-margin-top: 40px;
+                --navigation-height: 80px;
+                --main-margin-top: 120px;
+            }
+            .navigation {
+                box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+                height: var(--navigation-height);
+                margin-top: var(--navigation-margin-top);
+            }
+            .navigation .navigation-link {
+                text-transform: capitalize;
+            }
+            .navigation-link, .navigation-dropdown-link {
+                font-size: 16px;
+            }
+            .navigation-inline-form input[type='search'] {
+                padding-right: 40px;
+            }
+            /* 解决透明栏目时解决背景图片太亮，导致栏目看不清 */
+            .navigation-transparent {
+                background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+            }
+            @media (min-width: 992px) {
+                .navigation-around .navigation-body {
+                    justify-content: space-around;
+                }
+                .navigation-between .navigation-body {
+                    justify-content: space-between;
+                }
+                .navigation-transparent .navigation-input::placeholder {
+                    color: #fff;
+                }
+                .navigation-transparent .navigation-search-icon {
+                    color: #fff
+                }
+                .navigation-transparent .navigation-input {
+                    border-color: #fff;
+                }
+            }
+
+            /* logo动画 */
+            @-webkit-keyframes searchLights {
+                0% { left: -80px; top: 12px; }
+                to { left: 80px; top: 12px; }
+            }
+            .navigation-logo {
+                position: relative;
+                overflow: hidden;
+            }
+            .navigation-logo::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 8px;
+                
+            }
+                .art-text {
+            font-family: 'Orbitron', sans-serif; /* Futuristic font */
+            font-size: 2rem;
+            font-weight: bold;
+            color:
+           
+          
+        }
+
+      
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px #4facfe, 0 0 20px #4facfe, 0 0 30px #00f2fe, 0 0 40px #00f2fe;
+            }
+            100% {
+                text-shadow: 0 0 20px #00f2fe, 0 0 30px #4facfe, 0 0 50px #00f2fe, 0 0 60px #4facfe;
+            }
+        }
+
+     
+       
+        </style>
+        <link rel="stylesheet" href="../assets/cdn/common/lib/navx/css/skins/navigation-skin-colored.css">
+        <style>
+         .navigation-item:not(.navigation-brand-text):hover .navigation-link,
+         .navigation-item:not(.navigation-brand-text):focus .navigation-link,
+         .navigation-item:not(.navigation-brand-text).is-active .navigation-link {
+             color: #112855;
+         }
+         .navigation-avatar-item .navigation-link img {
+             border: solid 2px #112855;
+         }
+         .navigation-item:hover > .navigation-link > .submenu-indicator:after,
+         .navigation-item:focus > .navigation-link > .submenu-indicator:after,
+         .navigation-item.is-active > .navigation-link > .submenu-indicator:after {
+             border-color: transparent #112855 #112855 transparent;
+         }
+         .navigation-btn {
+             border-color: #112855;
+             background-color: #112855;
+         }
+         .navigation-btn:hover,
+         .navigation-btn:focus {
+             background-color: #122a59;
+         }
+         .navigation-badge {
+             background-color: #112855;
+         }
+         .navigation-input:hover,
+         .navigation-input:focus {
+             border-color: #112855;
+         }
+         .navigation-btn:hover .navigation-search-icon {
+             color: #112855;
+         }
+         .navigation-dropdown-item:hover > .navigation-dropdown-link,
+         .navigation-dropdown-item:focus > .navigation-dropdown-link,
+         .navigation-dropdown-item.is-active > .navigation-dropdown-link {
+             color: #112855;
+         }
+         .navigation-dropdown-item:hover > .navigation-dropdown-link > .submenu-indicator:after,
+         .navigation-dropdown-item:focus > .navigation-dropdown-link > .submenu-indicator:after,
+         .navigation-dropdown-item.is-active > .navigation-dropdown-link > .submenu-indicator:after {
+             border-color: transparent #112855 #112855 transparent;
+         }
+         .navigation-list > li > a:hover {
+             color: #112855;
+         }
+         
+         
+         
+         
+         
+         .navigation-menu:not(.navigation-social-menu) .navigation-item:not(.navigation-avatar-item):not(.navigation-logo):not(.navigation-brand-text):hover .navigation-link,
+             .navigation-menu:not(.navigation-social-menu) .navigation-item:not(.navigation-avatar-item):not(.navigation-logo):not(.navigation-brand-text):focus .navigation-link,
+             .navigation-menu:not(.navigation-social-menu) .navigation-item:not(.navigation-avatar-item):not(.navigation-logo):not(.navigation-brand-text).is-active .navigation-link {
+                 border-color: #122a59;
+             }
+             .navigation-menu:not(.navigation-social-menu) .navigation-item:not(.navigation-avatar-item):not(.navigation-logo):not(.navigation-brand-text):hover .navigation-link:after,
+             .navigation-menu:not(.navigation-social-menu) .navigation-item:not(.navigation-avatar-item):not(.navigation-logo):not(.navigation-brand-text):focus .navigation-link:after,
+             .navigation-menu:not(.navigation-social-menu) .navigation-item:not(.navigation-avatar-item):not(.navigation-logo):not(.navigation-brand-text).is-active .navigation-link:after {
+                 background-color: #112855 !important;
+             }
+             .navigation-dropdown-item:hover > .navigation-dropdown-link,
+             .navigation-dropdown-item:focus > .navigation-dropdown-link,
+             .navigation-dropdown-item.is-active > .navigation-dropdown-link {
+                 color: #fff;
+                 background-color: #112855;
+                 border-color: #122a59;
+             }
+             .navigation-list > li > a:hover {
+                 color: #fff;
+                 background-color: #112855;
+             }
+             .navigation-dropdown-item:hover > .navigation-dropdown-link > .submenu-indicator:after,
+             .navigation-dropdown-item:focus > .navigation-dropdown-link > .submenu-indicator:after,
+             .navigation-dropdown-item.is-active > .navigation-dropdown-link > .submenu-indicator:after {
+                 border-color: transparent #fff #fff transparent;
+             }
+         
+         
+         
+     </style>
+        <script src="../assets/cdn/common/lib/navx/js/navigation.min.js"></script>
+        
+        <!-- 自实现菜单栏目从这里开始删，直接删到末尾 -->
+        <nav class="navigation navigation-between fixed-top">
+            <div class="navigation-header">
+                
+                    <div class="navigation-logo">
+                        <a class="art-text text-primary" href="../index.html">LOMS</a>
+                    </div>
+                    <div class="navigation-button-toggler">
+                        <i class="hamburger-icon"></i>
+                    </div>
+                    
+            </div>
+            <div x-data="{ to: new URLSearchParams(location.search).get('language') || localStorage.getItem('to') }" class="navigation-body  sm:mx-auto sm:px-0" :class="to!=='russian'?'sm:max-w-8xl':''">
+                <div class="navigation-body-header sm:!pl-0">
+                    <div class="navigation-logo">
+                        <a class="art-text text-primary" href="../index.html">LOMS</a>
+                       
+                    </div>
+                    <span class="navigation-body-close-button">✕</span>
+                </div>
+                <ul class="navigation-menu">
+                    
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="index.html">欢迎来到LOMS</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="zhuyanan.html">朱亚楠</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="research.html">研究方向</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="yanjiulunwen.html">研究成果</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item is-active">
+                                <a class="navigation-link " href="members.html">团队成员</a>
+                                
+            <ul class="navigation-dropdown   ">
+                
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="zhuyanan.html">导师</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="members.html@c=12768.html">已毕业学生</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="members.html@c=12632.html">科研助理</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="members.html@c=12629.html">硕士生</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="members.html@c=12630.html">博士生</a>
+                            
+                        </li>
+                    
+            </ul>
+        
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="news.html">新闻</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="facilities.html">教学课程</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="software.html">更多</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="lianxi.html">联系我们</a>
+                                
+                            </li>
+                        
+
+                            <li class="navigation-item ">
+                                <a class="navigation-link " href="javascript:;">语言</a>
+                                
+            <ul class="navigation-dropdown   ">
+                
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="../ru.html">Русский язык</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="../cn.html">中文</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="../index.html">English</a>
+                            
+                        </li>
+                    
+            </ul>
+        
+                            </li>
+                        
+                   
+                    
+                    <!-- 谷歌自动翻译按钮
+                    <li class="navigation-item">
+                        <style>
+                            #google_translate_element {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100%;
+                            }
+                            #google_translate_element .goog-te-gadget-simple {
+                                display: flex;
+                                align-items: center;
+                            }
+                            #google_translate_element .goog-te-gadget-simple a {
+                                display: flex;
+                            }
+                            #google_translate_element .goog-te-menu-value {
+                                display: flex;
+                            }
+                        </style>
+                        
+                        <div id="google_translate_element"></div>
+                        <script>
+                            function googleTranslateElementInit() {
+                                var google_translate_element = document.getElementById('google_translate_element');
+                                var timer = setInterval(function() {
+                                    google_translate_element = document.getElementById('google_translate_element');
+                                    if (google_translate_element) {
+                                        clearInterval(timer);
+                                        // var langName = navigator.language ? navigator.language.split('-')[0].toLowerCase() : 'en';
+                                        var langName = localStorage.getItem('i18nextLng') || 'en';
+                                        new google.translate.TranslateElement({
+                                                //includedLanguages: 'en,zh-CN',
+                                                autoDisplay: false,
+                                                pageLanguage: langName,
+                                                //0，原生select，并且谷歌logo显示在按钮下方。1，原生select，并且谷歌logo显示在右侧。2，完全展开语言列表，适合pc，
+                                                layout: /mobile/i.test(navigator.userAgent) ? 0 : 2,
+                                            },
+                                            'google_translate_element'
+                                        );
+                                        // 清除图片的请求
+                                        // img = [].slice.call(document.querySelectorAll('#goog-gt-tt img,#google_translate_element img'));
+                                        // img.forEach(function(v, i) {
+                                        //     v.src = '';
+                                        // });
+                                    }
+                                }, 300);
+                            }
+                        </script>
+                        <script id="translate_google_js" src="//translate.google.com/translate_a/element.js?&cb=googleTranslateElementInit"></script>
+                    </li>
+                    -->
+                </ul>
+                <!-- 搜索 -->
+                <ul class="navigation-menu sm:!items-center sm:!-mr-4 !hidden">
+                    <div class="navigation-body-section">
+                        <form class="navigation-inline-form" action="http://www.ai4omslab.net/cn/products.html">
+                            <!-- 分类搜索
+                            <select class="text-gray-500 rounded-l-lg -mr-1 border-r-0" onchange="this.form.action = this.value">
+                                <option value="products.html">Products</option>
+                                <option value="news.html">News</option>
+                            </select>
+                            <input class="navigation-input rounded-r-lg" type="search" name="k" placeholder="Search">
+                            -->
+                            <input class="navigation-input rounded-lg" type="search" name="k" placeholder="Search">
+                            <button type="submit" class="navigation-btn">
+                                <i class="navigation-search-icon"></i>
+                            </button>
+                        </form>
+                    </div>
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+        <script>
+            const root = document.querySelector(':root');
+            const header_top_height = $('[component="header_top.js"]').children().outerHeight() || 0;
+            const navigation_height = $('nav.navigation').height() || 0;
+            root.style.setProperty('--navigation-margin-top', header_top_height + 'px');
+            root.style.setProperty('--navigation-height', navigation_height + 'px');
+            root.style.setProperty('--main-margin-top', (false ? header_top_height : (header_top_height + navigation_height)) + 'px')
+        </script>
+        <div style="height: var(--main-margin-top);"></div>
+        <script>
+            var navigation = new Navigation(document.querySelector(".navigation"));
+        </script>
+    
+        </div>
+    
+        </div>
+    
+
+
+
+
+
+
+
+
+    <h1 class="pt-8 md:pt-12 pb-0 text-center text-3xl md:text-5xl text-black">团队成员</h1>
+
+
+    
+        <div component="articles1.js" data="{'id': 12627}">
+            
+        <div id="page-content" class="relative bg-gray-50 px-4 sm:px-8 py-8 sm:py-16">
+            <div class="absolute inset-0 bg-[url(../assets/cdn/shang3857/1650807342305/grid.svg)] bg-top [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+            <div class="relative max-w-8xl mx-auto">
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 sm:gap-8 news-list">
+                    
+        <div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12631/" data-categoryid="12631" data-labels="" data-attributes="" data-keyword="朱亚楠,Email: zhuyn@smbu.edu.cn;
+Web: https://orcid.org/0000-0001-5611-1621">
+                <div class="flex-shrink-0">
+                    <a href="zhuyanan.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1733369555693/tupian1_r__919-1124_c__4d535d__r__919-1124_c__4d545d_.webp" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="zhuyanan.html">朱亚楠</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="zhuyanan.html">导师</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">Email: zhuyn@smbu.edu.cn;
+Web: https://orcid.org/0000-0001-5611-1621</a>
+                    
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12632/" data-categoryid="12632" data-labels="" data-attributes="" data-keyword="张萌,">
+                <div class="flex-shrink-0">
+                    <a href="article_68258.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1752654445362/weixintupian_20250716162615_r__750-1050_c__dfc9bd___oss_thumb_small.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_68258.html">张萌</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_68258.html">科研助理</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;"></a>
+                    
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12632/" data-categoryid="12632" data-labels="" data-attributes="" data-keyword="苏国政,">
+                <div class="flex-shrink-0">
+                    <a href="article_66194.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1744869048093/qiyeweixinjietu_091fa97b-0dc7-4020-b689-e3f27f7db389_r__273-347_c__332829___oss_thumb_png_small.png" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66194.html">苏国政</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66194.html">科研助理</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;"></a>
+                    
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12630/" data-categoryid="12630" data-labels="" data-attributes="" data-keyword="殷易鸣,2024 PhD MSU-SMBU">
+                <div class="flex-shrink-0">
+                    <a href="article_66170.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1733369657083/tupian5_r__731-1000_c__cdc9d3__r__731-1000_c__cdc9d3_.webp" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66170.html">殷易鸣</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66170.html">博士生</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">2024 PhD MSU-SMBU</a>
+                    <a class="text-[#007aff] text-sm block text-[#000]" href="https://istina.msu.ru/workers/522521/" target="_blank">Co-supervise with Prof. Valentina V. Utochnikova @ MSU</a>
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12629/" data-categoryid="12629" data-labels="" data-attributes="" data-keyword="刘雅轩,2024 Master's degree BIT-SMBU">
+                <div class="flex-shrink-0">
+                    <a href="article_66173.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1733369693871/tupian8_r__799-1000_c__2b272a__r__799-1000_c__2b272a_.webp" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66173.html">刘雅轩</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66173.html">硕士生</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">2024 Master's degree BIT-SMBU</a>
+                    
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12629/" data-categoryid="12629" data-labels="" data-attributes="" data-keyword="王舜禹,2023 Master's degree PKU-SMBU">
+                <div class="flex-shrink-0">
+                    <a href="article_66171.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1743663732000/weixintupian_20250403150043_r__1620-2160_c__2b292d___oss_thumb_small.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66171.html">王舜禹</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66171.html">硕士生</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">2023 Master's degree PKU-SMBU</a>
+                    <a class="text-[#007aff] text-sm block text-[#000]" href="http://web.pkusz.edu.cn/menghong/" target="_blank">Co-supervised with Prof. Hong Meng @ PKU</a>
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12768/" data-categoryid="12768" data-labels="" data-attributes="" data-keyword="周奥伟,2025 PhD BIT-SMBU">
+                <div class="flex-shrink-0">
+                    <a href="article_66168.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1733369631852/tupian3_r__731-1000_c__d1aaa4__r__731-1000_c__d1aba4_.webp" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66168.html">周奥伟</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66168.html">已毕业学生</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">2025 PhD BIT-SMBU</a>
+                    
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12768/" data-categoryid="12768" data-labels="" data-attributes="" data-keyword="郭志鹏,2023 Master's degree MSU-SMBU">
+                <div class="flex-shrink-0">
+                    <a href="article_66167.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1733369588220/tupian2_r__713-1000_c__e4b9aa__r__713-1000_c__e4b9aa_.webp" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66167.html">郭志鹏</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66167.html">已毕业学生</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">2023 Master's degree MSU-SMBU</a>
+                    
+                </div>
+            </div>
+<div data-reveal="fade-up" class="flex flex-col rounded-lg shadow-lg overflow-hidden" data-categorytree="12627/12630/" data-categoryid="12630" data-labels="" data-attributes="" data-keyword="张小鹏,2022 PhD PKU-SMBU">
+                <div class="flex-shrink-0">
+                    <a href="article_66172.html" target="_blank">
+                        <img class="h-48 w-full object-contain" src="../assets/cdn/a121010323/1744097241176/xiaopeng_r__1279-1706_c__151418___oss_thumb_small.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4">
+                    <a class="text-xl font-bold mb-2 block text-[#000]" href="article_66172.html">张小鹏</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="article_66172.html">博士生</a>
+                    <a class="text-gray-500 mb-2 block text-[#000]" href="javascript:;">2022 PhD PKU-SMBU</a>
+                    <a class="text-[#007aff] text-sm block text-[#000]" href="http://web.pkusz.edu.cn/menghong/" target="_blank">Co-supervised with Prof. Hong Meng @ PKU</a>
+                </div>
+            </div>
+    
+                </div>
+                
+        <style>
+            .pages-ul {
+                display: flex;
+                justify-content: center;
+                margin: 16px;
+                list-style: none;
+            }
+            .pages-ul li {
+                border: 1px solid #d1d5db;
+                border-radius: 6px;
+            }
+            .pages-ul li a {
+                display: block;
+                padding: 6px 12px;
+            }
+            .pages-ul li+li {
+                margin-left: 6px;
+            }
+            .pages-ul li.active {
+                border-color: #112855;
+            }
+            .pages-ul li.active a {
+                color: #112855;
+            }
+        </style>
+        <ul class="pages-ul"></ul>
+    
+            </div>
+        </div>
+        <script src="../assets/cdn/common/lib/list/2.3.1/list.js"></script>
+        <script>
+            // 如果为空就不显示
+            document.addEventListener('alpine:init', () => {
+                Alpine.store('list', {
+                    len: list.matchingItems.length,
+                    getCategoryList() {
+                        return [{"id":12631,"name":"导师","tree":"12627/12631/"},{"id":12630,"name":"博士生","tree":"12627/12630/"},{"id":12629,"name":"硕士生","tree":"12627/12629/"},{"id":12768,"name":"已毕业学生","tree":"12627/12768/"},{"id":12628,"name":"资源链接","tree":"12628/"},{"id":12632,"name":"科研助理","tree":"12627/12632/"},{"id":12627,"name":"团队成员","tree":"12627/"},{"id":12626,"name":"新闻","tree":"12626/"}];
+                    },
+                    getCategoryTreeArr(category_id) {
+                        const category = this.getCategoryList().find(item => item.id === +category_id);
+                        if (category) {
+                            return category.tree.split('/').map(id => {
+                                return this.getCategoryList().find(item => item.id === +id);
+                            }).filter(item => item)
+                        }
+                        return [];
+                    },
+                });
+            });
+
+            var list;
+            $(function() {
+                if (1 > 0) {
+                    list = new List('page-content', {
+                        valueNames: [{
+                                data: ['categoryid']
+                            },
+                            {
+                                data: ['labels']
+                            },
+                            {
+                                data: ['attributes']
+                            },
+                            {
+                                data: ['keyword']
+                            },
+                            {
+                                data: ['categorytree']
+                            },
+                        ],
+                        listClass: 'news-list',
+                        page: 12,
+                        i: (((new URLSearchParams(location.search).get('page') || 1) - 1) * 12) + 1,
+                        pagination: [{
+                            paginationClass: 'pages-ul',
+                            outerWindow: 2,
+                            item: `<li><a class="page" onclick="let searchParams = new URLSearchParams(location.search);searchParams.set('page', $(this).data('i'));history.pushState({}, '', location.pathname + '?' + searchParams)" href="javascript:;"></a></li>`
+                        }]
+                    });
+        
+                    var params = new URLSearchParams(location.search);
+                    if (params) {
+                        if (params.get('c') || params.get('l')) {
+                            // 选中分类、标签代码参考
+                            $('.categorys li').removeClass('current');
+                            if (params.get('c')) {
+                            $('.categorys li[categoryid="' + params.get('c') + '"]').addClass('current');
+                            }
+                            list.filter(function (item) {
+                                if (params.get('c') && (item.values().categorytree.indexOf(params.get('c')) !== -1)) {
+                                    return true;
+                                } else if (params.get('l') && ((item.values().labels || '').indexOf(params.get('l')) !== -1)) {
+                                    return true;
+                                } else {
+                                    return false;
+                                }
+                            });
+                        }
+                        if (params.get('k')) {
+                            document.querySelector('input[name="k"]').value = params.get('k');
+                            list.search(params.get('k'), (searchString, columns) => {
+                                for (var k = 0, kl = list.items.length; k < kl; k++) {
+                                    list.items[k].found = (list.items[k].values().keyword || '').indexOf(params.get('k')) !== -1;
+                                }
+                            });
+                        }
+                    }    
+                }
+            })
+            
+        </script>
+    
+        </div>
+    
+
+
+
+    <!-- <div class="relative max-w-8xl mx-auto" id="one">
+        <div class="flex items-center justify-between space-x-4 border-b border-gray-200 pb-4">
+            <h2 data-reveal="scale-right" class="text-2xl font-semibold text-gray-900 tracking-wider">
+                Principal Investigator
+            </h2>
+        </div>
+
+
+
+
+        <dynamic-load component="index_articles1.js" data="{'id': 12631}"></dynamic-load>
+
+
+
+
+    </div>
+    <div class="relative max-w-8xl mx-auto pt-4">
+        <div class="flex items-center justify-between space-x-4 border-b border-gray-200 pb-4">
+            <h2 data-reveal="scale-right" class="text-2xl font-semibold text-gray-900 tracking-wider">
+                Research Assistant
+            </h2>
+        </div>
+
+
+
+
+        <dynamic-load component="index_articles1.js" data="{'id': 12632}"></dynamic-load>
+
+
+
+
+    </div>
+
+    <div class="relative max-w-8xl mx-auto pt-4" id="two">
+        <div class="flex items-center justify-between space-x-4 border-b border-gray-200 pb-4">
+            <h2 data-reveal="scale-right" class="text-2xl font-semibold text-gray-900 tracking-wider" style="width: 200px">
+                Doctor student
+            </h2>
+        </div>
+
+
+
+
+        <dynamic-load component="index_articles1.js" data="{'id': 12630}"></dynamic-load>
+
+
+
+
+    </div>
+
+   
+    <div class="relative max-w-8xl mx-auto pt-4" id="two">
+        <div class="flex items-center justify-between space-x-4 border-b border-gray-200 pb-4">
+            <h2 data-reveal="scale-right" class="text-2xl font-semibold text-gray-900 tracking-wider" style="width: 200px">
+                Doctor student
+            </h2>
+        </div>
+
+
+
+
+        <dynamic-load component="index_articles1.js" data="{'id': 12630}"></dynamic-load>
+
+
+
+
+    </div>
+
+    <div class="relative max-w-8xl mx-auto pt-4" id="three">
+        <div class="flex items-center justify-between space-x-4 border-b border-gray-200 pb-4">
+            <h2 data-reveal="scale-right" class="text-2xl font-semibold text-gray-900 tracking-wider">
+                Master student
+            </h2>
+        </div>
+
+
+
+
+        <dynamic-load component="index_articles1.js" data="{'id': 12629}"></dynamic-load>
+
+
+
+
+    </div> -->
+
+
+
+
+
+
+
+    
+        <div component="footer.html">
+            <script type="text/javascript" src="../js/customer.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div component="sidebar_buttons.js">
+            
+        <div class="fixed z-10 flex flex-col gap-4 right-4 sm:right-8 bottom-16 sm:bottom-8">
+            
+            
+            <!-- 回到顶部 -->
+            <div x-cloak="" x-data="{ shown: false }" x-intersect:enter.margin.200px="shown = true" x-intersect:leave.margin.200px="shown = false" class="">
+                <a x-show="shown" class="w-10 h-10 flex justify-center items-center rounded-full bg-black transition-all hover:scale-105 hover:bg-gray-800" href="javascript:window.scrollTo({top: 0, behavior: 'smooth'});">
+                    <svg class="block w-5 h-5 stroke-gray-100" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 24L24 12L36 24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 36L24 24L36 36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+    
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div component="gsap.html">
+            <script src="../assets/cdn/common/lib/gsap/3.12.2/gsap.min.js"></script>
+<script src="../assets/cdn/common/lib/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+    // lines-up words-up
+    const ea = (function() {
+        function bm(r) {
+            var t = r.nodeType,
+                e = "";
+            if (t === 1 || t === 9 || t === 11) {
+                if (typeof r.textContent == "string") return r.textContent;
+                for (r = r.firstChild; r; r = r.nextSibling) e += bm(r);
+            } else if (t === 3 || t === 4) return r.nodeValue;
+            return e;
+        }
+        var Zx,
+            a2 = /(?:\r|\n|\t\t)/g,
+            o2 = /(?:\s\s+)/g,
+            f2 = " style='position:relative;display:inline-block;'",
+            l2 = function() {
+                (ro = document), (jx = window), (Zx = 1);
+            },
+            h2 = 1,
+            $x = function(t) {
+                return jx.getComputedStyle(t);
+            },
+            u2 = Array.isArray,
+            Jx = [].slice,
+            Lm = function(t) {
+                return t.position === "absolute" || t.absolute === !0;
+            },
+            Dm = function(t, e) {
+                var i;
+                return u2(t) ?
+                    t :
+                    (i = typeof t) === "string" && !e && t ?
+                    Jx.call(ro.querySelectorAll(t), 0) :
+                    t && i === "object" && "length" in t ?
+                    Jx.call(t, 0) :
+                    t ? [t] : [];
+            },
+            Kx = function(t, e) {
+                t === void 0 && (t = "");
+                var i = ~t.indexOf("++"),
+                    n = 1;
+                return (
+                    i && (t = t.split("++").join("")),
+                    function() {
+                        return (
+                            "<" + e + f2 + (t ? " class='" + t + (i ? n++ : "") + "'>" : ">")
+                        );
+                    }
+                );
+            },
+            Un = function(t, e) {
+                return parseFloat(e[t]) || 0;
+            },
+            Qx = function r(t, e, i) {
+                var n = t.nodeType;
+                if (n === 1 || n === 9 || n === 11)
+                    for (t = t.firstChild; t; t = t.nextSibling) r(t, e, i);
+                else(n === 3 || n === 4) && (t.nodeValue = t.nodeValue.split(e).join(i));
+            },
+            Rm = function(t, e) {
+                for (var i = e.length; --i > -1;) t.push(e[i]);
+            },
+            t1 = function(t, e, i) {
+                for (var n; t && t !== e;) {
+                    if (((n = t._next || t.nextSibling), n))
+                        return n.textContent.charAt(0) === i;
+                    t = t.parentNode || t._parent;
+                }
+            },
+            d2 = function r(t) {
+                var e = Dm(t.childNodes),
+                    i = e.length,
+                    n,
+                    s;
+                for (n = 0; n < i; n++)
+                    (s = e[n]),
+                    s._isSplit ?
+                    r(s) :
+                    n && s.previousSibling && s.previousSibling.nodeType === 3 ?
+                    ((s.previousSibling.nodeValue +=
+                            s.nodeType === 3 ? s.nodeValue : s.firstChild.nodeValue),
+                        t.removeChild(s)) :
+                    s.nodeType !== 3 &&
+                    (t.insertBefore(s.firstChild, s), t.removeChild(s));
+            },
+            p2 = function(t, e, i, n, s, a, o) {
+                var h = $x(t),
+                    u = Un("paddingLeft", h),
+                    d = -999,
+                    g = Un("borderBottomWidth", h) + Un("borderTopWidth", h),
+                    f = Un("borderLeftWidth", h) + Un("borderRightWidth", h),
+                    m = Un("paddingTop", h) + Un("paddingBottom", h),
+                    _ = Un("paddingLeft", h) + Un("paddingRight", h),
+                    v = Un("fontSize", h) * (e.lineThreshold || 0.2),
+                    b = h.textAlign,
+                    C = [],
+                    M = [],
+                    E = [],
+                    w = e.wordDelimiter || " ",
+                    A = e.tag ? e.tag : e.span ? "span" : "div",
+                    R = e.type || e.split || "chars,words,lines",
+                    N = s && ~R.indexOf("lines") ? [] : null,
+                    D = ~R.indexOf("words"),
+                    X = ~R.indexOf("chars"),
+                    at = Lm(e),
+                    ft = e.linesClass,
+                    gt = ~(ft || "").indexOf("++"),
+                    ut = [],
+                    xt = h.display === "flex",
+                    nt = t.style.display,
+                    it,
+                    tt,
+                    W,
+                    Q,
+                    ot,
+                    ct,
+                    Tt,
+                    Rt,
+                    Pt,
+                    Nt,
+                    At,
+                    Qt;
+                for (
+                    gt && (ft = ft.split("++").join("")),
+                    xt && (t.style.display = "block"),
+                    tt = t.getElementsByTagName("*"),
+                    W = tt.length,
+                    ot = [],
+                    it = 0; it < W; it++
+                )
+                    ot[it] = tt[it];
+                if (N || at)
+                    for (it = 0; it < W; it++)
+                        (Q = ot[it]),
+                        (ct = Q.parentNode === t),
+                        (ct || at || (X && !D)) &&
+                        ((Qt = Q.offsetTop),
+                            N &&
+                            ct &&
+                            Math.abs(Qt - d) > v &&
+                            (Q.nodeName !== "BR" || it === 0) &&
+                            ((Tt = []), N.push(Tt), (d = Qt)),
+                            at &&
+                            ((Q._x = Q.offsetLeft),
+                                (Q._y = Qt),
+                                (Q._w = Q.offsetWidth),
+                                (Q._h = Q.offsetHeight)),
+                            N &&
+                            (((Q._isSplit && ct) ||
+                                    (!X && ct) ||
+                                    (D && ct) ||
+                                    (!D &&
+                                        Q.parentNode.parentNode === t &&
+                                        !Q.parentNode._isSplit)) &&
+                                (Tt.push(Q), (Q._x -= u), t1(Q, t, w) && (Q._wordEnd = !0)),
+                                Q.nodeName === "BR" &&
+                                ((Q.nextSibling && Q.nextSibling.nodeName === "BR") ||
+                                    it === 0) &&
+                                N.push([])));
+                for (it = 0; it < W; it++) {
+                    if (((Q = ot[it]), (ct = Q.parentNode === t), Q.nodeName === "BR")) {
+                        N || at ?
+                            (Q.parentNode && Q.parentNode.removeChild(Q),
+                                ot.splice(it--, 1),
+                                W--) :
+                            D || t.appendChild(Q);
+                        continue;
+                    }
+                    if (
+                        (at &&
+                            ((Pt = Q.style),
+                                !D && !ct && ((Q._x += Q.parentNode._x), (Q._y += Q.parentNode._y)),
+                                (Pt.left = Q._x + "px"),
+                                (Pt.top = Q._y + "px"),
+                                (Pt.position = "absolute"),
+                                (Pt.display = "block"),
+                                (Pt.width = Q._w + 1 + "px"),
+                                (Pt.height = Q._h + "px")),
+                            !D && X)
+                    )
+                        if (Q._isSplit)
+                            for (
+                                Q._next = tt = Q.nextSibling, Q.parentNode.appendChild(Q); tt && tt.nodeType === 3 && tt.textContent === " ";
+
+                            )
+                                (Q._next = tt.nextSibling),
+                                Q.parentNode.appendChild(tt),
+                                (tt = tt.nextSibling);
+                        else
+                            Q.parentNode._isSplit ?
+                            ((Q._parent = Q.parentNode),
+                                !Q.previousSibling &&
+                                Q.firstChild &&
+                                (Q.firstChild._isFirst = !0),
+                                Q.nextSibling &&
+                                Q.nextSibling.textContent === " " &&
+                                !Q.nextSibling.nextSibling &&
+                                ut.push(Q.nextSibling),
+                                (Q._next =
+                                    Q.nextSibling && Q.nextSibling._isFirst ?
+                                    null :
+                                    Q.nextSibling),
+                                Q.parentNode.removeChild(Q),
+                                ot.splice(it--, 1),
+                                W--) :
+                            ct ||
+                            ((Qt = !Q.nextSibling && t1(Q.parentNode, t, w)),
+                                Q.parentNode._parent && Q.parentNode._parent.appendChild(Q),
+                                Qt && Q.parentNode.appendChild(ro.createTextNode(" ")),
+                                A === "span" && (Q.style.display = "inline"),
+                                C.push(Q));
+                    else
+                        Q.parentNode._isSplit && !Q._isSplit && Q.innerHTML !== "" ?
+                        M.push(Q) :
+                        X &&
+                        !Q._isSplit &&
+                        (A === "span" && (Q.style.display = "inline"), C.push(Q));
+                }
+                for (it = ut.length; --it > -1;) ut[it].parentNode.removeChild(ut[it]);
+                if (N) {
+                    for (
+                        at &&
+                        ((Nt = ro.createElement(A)),
+                            t.appendChild(Nt),
+                            (At = Nt.offsetWidth + "px"),
+                            (Qt = Nt.offsetParent === t ? 0 : t.offsetLeft),
+                            t.removeChild(Nt)),
+                        Pt = t.style.cssText,
+                        t.style.cssText = "display:none;"; t.firstChild;
+
+                    )
+                        t.removeChild(t.firstChild);
+                    for (
+                        Rt = w === " " && (!at || (!D && !X)), it = 0; it < N.length; it++
+                    ) {
+                        for (
+                            Tt = N[it],
+                            Nt = ro.createElement(A),
+                            Nt.style.cssText =
+                            "display:block;text-align:" +
+                            b +
+                            ";position:" +
+                            (at ? "absolute;" : "relative;"),
+                            ft && (Nt.className = ft + (gt ? it + 1 : "")),
+                            E.push(Nt),
+                            W = Tt.length,
+                            tt = 0; tt < W; tt++
+                        )
+                            Tt[tt].nodeName !== "BR" &&
+                            ((Q = Tt[tt]),
+                                Nt.appendChild(Q),
+                                Rt && Q._wordEnd && Nt.appendChild(ro.createTextNode(" ")),
+                                at &&
+                                (tt === 0 &&
+                                    ((Nt.style.top = Q._y + "px"),
+                                        (Nt.style.left = u + Qt + "px")),
+                                    (Q.style.top = "0px"),
+                                    Qt && (Q.style.left = Q._x - Qt + "px")));
+                        W === 0 ?
+                            (Nt.innerHTML = "&nbsp;") :
+                            !D && !X && (d2(Nt), Qx(Nt, String.fromCharCode(160), " ")),
+                            at && ((Nt.style.width = At), (Nt.style.height = Q._h + "px")),
+                            t.appendChild(Nt);
+                    }
+                    t.style.cssText = Pt;
+                }
+                at &&
+                    (o > t.clientHeight &&
+                        ((t.style.height = o - m + "px"),
+                            t.clientHeight < o && (t.style.height = o + g + "px")),
+                        a > t.clientWidth &&
+                        ((t.style.width = a - _ + "px"),
+                            t.clientWidth < a && (t.style.width = a + f + "px"))),
+                    xt && (nt ? (t.style.display = nt) : t.style.removeProperty("display")),
+                    Rm(i, C),
+                    D && Rm(n, M),
+                    Rm(s, E);
+            },
+            m2 = function(t, e, i, n) {
+                var s = e.tag ? e.tag : e.span ? "span" : "div",
+                    a = e.type || e.split || "chars,words,lines",
+                    o = ~a.indexOf("chars"),
+                    h = Lm(e),
+                    u = e.wordDelimiter || " ",
+                    d = u !== " " ? "" : h ? "&#173; " : " ",
+                    g = "</" + s + ">",
+                    f = 1,
+                    m = e.specialChars ?
+                    typeof e.specialChars == "function" ?
+                    e.specialChars :
+                    c2 :
+                    null,
+                    _,
+                    v,
+                    b,
+                    C,
+                    M,
+                    E,
+                    w,
+                    A,
+                    R = ro.createElement("div"),
+                    N = t.parentNode;
+                for (
+                    N.insertBefore(R, t),
+                    R.textContent = t.nodeValue,
+                    N.removeChild(t),
+                    t = R,
+                    _ = bm(t),
+                    w = _.indexOf("<") !== -1,
+                    e.reduceWhiteSpace !== !1 && (_ = _.replace(o2, " ").replace(a2, "")),
+                    w && (_ = _.split("<").join(("{" + "{LT}}"))),
+                    M = _.length,
+                    v = (_.charAt(0) === " " ? d : "") + i(),
+                    b = 0; b < M; b++
+                )
+                    if (((E = _.charAt(b)), m && (A = m(_.substr(b), e.specialChars))))
+                        (E = _.substr(b, A || 1)),
+                        (v += o && E !== " " ? n() + E + "</" + s + ">" : E),
+                        (b += A - 1);
+                    else if (E === u && _.charAt(b - 1) !== u && b) {
+                    for (v += f ? g : "", f = 0; _.charAt(b + 1) === u;)(v += d), b++;
+                    b === M - 1 ?
+                        (v += d) :
+                        _.charAt(b + 1) !== ")" && ((v += d + i()), (f = 1));
+                } else
+                    E === "{" && _.substr(b, 6) === ("{" + "{LT}}") ?
+                    ((v += o ? n() + "{" + "{LT}}</" + s + ">" : ("{" + "{LT}}")), (b += 5)) :
+                    (E.charCodeAt(0) >= 55296 && E.charCodeAt(0) <= 56319) ||
+                    (_.charCodeAt(b + 1) >= 65024 && _.charCodeAt(b + 1) <= 65039) ?
+                    ((C = ((_.substr(b, 12).split(Tx) || [])[1] || "").length || 2),
+                        (v +=
+                            o && E !== " " ?
+                            n() + _.substr(b, C) + "</" + s + ">" :
+                            _.substr(b, C)),
+                        (b += C - 1)) :
+                    (v += o && E !== " " ? n() + E + "</" + s + ">" : E);
+                (t.outerHTML = v + (f ? g : "")), w && Qx(N, ("{" + "{LT}}"), "<");
+            },
+            g2 = function r(t, e, i, n) {
+                var s = Dm(t.childNodes),
+                    a = s.length,
+                    o = Lm(e),
+                    h,
+                    u;
+                if (t.nodeType !== 3 || a > 1) {
+                    for (e.absolute = !1, h = 0; h < a; h++)
+                        (u = s[h]),
+                        (u._next = u._isFirst = u._parent = u._wordEnd = null),
+                        (u.nodeType !== 3 || /\S+/.test(u.nodeValue)) &&
+                        (o &&
+                            u.nodeType !== 3 &&
+                            $x(u).display === "inline" &&
+                            ((u.style.display = "inline-block"),
+                                (u.style.position = "relative")),
+                            (u._isSplit = !0),
+                            r(u, e, i, n));
+                    (e.absolute = o), (t._isSplit = !0);
+                    return;
+                }
+                m2(t, e, i, n);
+            }
+
+        function r(e, i) {
+            Zx || l2(),
+                (this.elements = Dm(e)),
+                (this.chars = []),
+                (this.words = []),
+                (this.lines = []),
+                (this._originals = []),
+                (this.vars = i || {}),
+                h2 && this.split(i);
+        }
+        var t = r.prototype;
+        return (
+            (t.split = function(i) {
+                this.isSplit && this.revert(),
+                    (this.vars = i = i || this.vars),
+                    (this._originals.length =
+                        this.chars.length =
+                        this.words.length =
+                        this.lines.length =
+                        0);
+                for (
+                    var n = this.elements.length,
+                        s = i.tag ? i.tag : i.span ? "span" : "div",
+                        a = Kx(i.wordsClass, s),
+                        o = Kx(i.charsClass, s),
+                        h,
+                        u,
+                        d;
+                    --n > -1;
+
+                )
+                    (d = this.elements[n]),
+                    (this._originals[n] = d.innerHTML),
+                    (h = d.clientHeight),
+                    (u = d.clientWidth),
+                    g2(d, i, a, o),
+                    p2(d, i, this.chars, this.words, this.lines, u, h);
+                return (
+                    this.chars.reverse(),
+                    this.words.reverse(),
+                    this.lines.reverse(),
+                    (this.isSplit = !0),
+                    this
+                );
+            }),
+            (t.revert = function() {
+                var i = this._originals;
+                if (!i) throw "revert() call wasn't scoped properly.";
+                return (
+                    this.elements.forEach(function(n, s) {
+                        return (n.innerHTML = i[s]);
+                    }),
+                    (this.chars = []),
+                    (this.words = []),
+                    (this.lines = []),
+                    (this.isSplit = !1),
+                    this
+                );
+            }),
+            (r.create = function(i, n) {
+                return new r(i, n);
+            }),
+            r
+        );
+    })();
+</script>
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    const revealElements = document.querySelectorAll("[data-reveal]");
+
+    // setup
+    revealElements.forEach(elem => {
+        const reveal_name = elem.dataset.reveal;
+        if (reveal_name === 'fade') {
+            gsap.set(elem, {
+                willChange: "transform",
+                opacity: 0
+            });
+        } else if (reveal_name === 'fade-up') {
+            gsap.set(elem, {
+                willChange: "transform",
+                y: 25,
+                opacity: 0
+            });
+        } else if (reveal_name === 'mask-up') {
+            gsap.set(elem, {
+                willChange: "transform",
+                y: "100%",
+                opacity: 0
+            });
+        } else if (reveal_name === 'fade-left') {
+            gsap.set(elem, {
+                willChange: "transform",
+                x: "10%",
+                opacity: 0
+            });
+        } else if (reveal_name === 'scale-right') {
+            gsap.set(elem, {
+                willChange: "transform",
+                scaleX: 0,
+                transformOrigin: "left"
+            });
+        } else if (reveal_name === 'lines-up') {
+            let t = new ea(elem, {
+                type: "lines",
+                linesClass: "line"
+            });
+            for (let e of t.lines) {
+                e.innerHTML = '<div class="line-inner">' + e.innerHTML + '</div>';
+                gsap.set(e, {
+                    overflow: "hidden"
+                });
+                gsap.set(e.firstChild, {
+                    willChange: "transform",
+                    opacity: 0,
+                    y: "50px",
+                });
+            }
+        } else if (reveal_name === 'words-up') {
+            // 中文加空格
+            elem.innerHTML = elem.innerHTML.replace(/([\u4e00-\u9fa5])/g, " $1");
+            let t = new ea(elem, {
+                type: "words",
+                wordsClass: "word"
+            });
+            for (let e of t.words) {
+                e.innerHTML = '<div class="word-inner">' + e.innerHTML + '</div>';
+                gsap.set(e, {
+                    overflow: "hidden"
+                });
+                gsap.set(e.firstChild, {
+                    willChange: "transform",
+                    opacity: 0,
+                    y: "50px",
+                });
+            }
+        }
+    });
+
+    // batch animate
+    ScrollTrigger.batch(revealElements, {
+        interval: 0.01,
+        start: "top 90%",
+        onEnter: (elements, triggers) => {
+            elements.forEach(elem => {
+                const reveal_name = elem.dataset.reveal;
+                if (reveal_name === 'fade') {
+                    gsap.to(elements, {
+                        opacity: 1,
+                        duration: 0.8,
+                        ease: "power4.out",
+                        stagger: 0.1,
+                    });
+                } else if (reveal_name === 'fade-up') {
+                    gsap.to(elements, {
+                        opacity: 1,
+                        y: 0,
+                        stagger: .15,
+                        ease: "sine.out",
+                    });
+                } else if (reveal_name === 'mask-up') {
+                    gsap.to(elements, {
+                        y: "0%",
+                        opacity: 1,
+                        duration: 0.8,
+                        ease: "power4.out",
+                        stagger: 0.1,
+                    });
+                } else if (reveal_name === 'fade-left') {
+                    gsap.to(elements, {
+                        x: "0%",
+                        opacity: 1,
+                        duration: 1,
+                        ease: "power4.out",
+                        stagger: 0.1,
+                    });
+                } else if (reveal_name === 'scale-right') {
+                    gsap.to(elements, {
+                        scaleX: 1,
+                        duration: 1.5,
+                        ease: "power4.out",
+                        stagger: 0.1,
+                    });
+                } else if (reveal_name === 'lines-up') {
+                    const line_inners = [...elem.querySelectorAll(".line-inner")];
+                    gsap.to(line_inners, {
+                        y: "0",
+                        duration: 0.8,
+                        opacity: 1,
+                        stagger: 0.1,
+                        ease: "power4.out",
+                    });
+                } else if (reveal_name === 'words-up') {
+                    const word_inners = [...elem.querySelectorAll(".word-inner")];
+                    gsap.to(word_inners, {
+                        y: "0",
+                        duration: 0.8,
+                        opacity: 1,
+                        stagger: 0.1,
+                        ease: "power4.out",
+                    });
+                }
+            })
+        },
+        // onLeaveBack: (elements, triggers) => { // 动画重复
+        //     elements.forEach(elem => {
+        //         const reveal_name = elem.dataset.reveal;
+        //         gsap.set(elem, {
+        //             willChange: "transform",
+        //             y: 200,
+        //             opacity: 0
+        //         });
+        //     })
+        // },
+    });
+    // gsap.to(".news-item", {
+    //     scrollTrigger: ".news-item",
+    //     opacity: 1,
+    //     y: -25,
+    //     stagger: .15,
+    //     ease: "sine.out"
+    // })
+</script>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="py-12 md:py-12 bg-primary text-white">
+    <div class="container">
+        <h5 class="text-lg md:text-xl" dynamic-var="config['公共']['公司名称']">LOMS</h5>
+        <!-- <p><span>公司电话：</span><span dynamic-var="config['公共']['公司电话']">18126341816</span></p> -->
+        <p><span>Email:</span><span dynamic-var="config['公共']['公司邮箱']">zhuyn@smbu.edu.cn</span></p>
+        <p><span>Address:</span><span dynamic-var="config['公共']['公司地址']">#深圳市龙岗区国际大学园路深圳北理莫斯科大学主楼446</span></p>
+    </div>
+</footer>
+
+
+<!--<dynamic-load component="footer.js"></dynamic-load><dynamic-load component="cookie.js"></dynamic-load>-->
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <script>
+                    if (location.hostname !== 'a121010323.temp.cn3.caihongjianzhan.com') {
+                        !function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JzJ5Oey3aO0Nixhe",ck:"JzJ5Oey3aO0Nixhe"});
+                    }
+                </script>
+            </body></html>

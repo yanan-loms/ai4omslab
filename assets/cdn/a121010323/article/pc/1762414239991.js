@@ -1,0 +1,1 @@
+document.write('<p>Наш дизайн обложки был выбран для размещения на Front Cover журнала Advanced Optical Materials! Поздравляем Чжи Пэна, Сяо Пэна и Ао Вэя!</p><p><a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.70553" target="_blank">LINK</a></p>');

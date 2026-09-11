@@ -1,0 +1,1 @@
+document.write('<p>Congratulations to Professor Zhu for securing support from the 2023 National Key Research and Development Program! Within the "New Display Technologies and Strategic Electronic Materials" special project, LOMS will contribute to the sub-project focusing on the development and validation of novel luminescent systems.&nbsp;</p><p><br></p>');

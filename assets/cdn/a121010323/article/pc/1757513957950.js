@@ -1,0 +1,1 @@
+document.write('<p>封面+1！JMCC选择了我们的设计作为本期FrontCover！恭喜朱老师和邢老师！（2024，Volume 12，Issue 27）</p><p>下面是JMCC期刊链接，可以通过点击跳转:</p><p><a href="https://pubs.rsc.org/en/content/articlelanding/2024/tc/d4tc01744g" target="_blank">LINK</a></p>');

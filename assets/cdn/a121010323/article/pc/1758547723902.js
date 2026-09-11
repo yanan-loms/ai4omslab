@@ -1,0 +1,1 @@
+document.write('<p>我们的封面设计被JPCL选为FrontCover！恭喜志鹏！</p><a href="https://pubs.acs.org/journal/jpclcd" target="_blank">https://pubs.acs.org/journal/jpclcd</a>');

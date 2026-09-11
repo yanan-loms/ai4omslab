@@ -1,0 +1,1 @@
+document.write('<p>Our cover design has been selected as the Front Cover by&nbsp;Advanced Optical Materials! Congratulations to Zhipeng, Xiaopeng and Aowei!</p><p><a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.70553" target="_blank">LINK</a></p>');

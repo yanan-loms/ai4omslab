@@ -1,0 +1,1 @@
+document.write('<p>Our cover design has been selected as the Front Cover by JPCL! Congratulations to Zhipeng!</p><p><a href="https://pubs.acs.org/journal/jpclcd" target="_blank">LINK</a></p>');

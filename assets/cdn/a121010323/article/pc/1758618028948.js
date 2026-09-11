@@ -1,0 +1,1 @@
+document.write('<p>Получение докторской степени в Тяньцзиньском университете</p><p>2023-2025 Co-supervise with Prof. Valentina V. Utochnikova @ MSU</p>');

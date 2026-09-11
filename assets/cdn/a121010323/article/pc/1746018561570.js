@@ -1,0 +1,1 @@
+document.write('<p>Welcome to Yaxuan for joining LOMS! Yaxuan is from Anhui and graduated from Shanghai Second Polytechnic University. Yaxuan will focus on developing machine learning models for perovskite-based light-emitting materials and other related research topics!</p>');

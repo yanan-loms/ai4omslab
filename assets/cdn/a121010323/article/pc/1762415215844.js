@@ -1,0 +1,1 @@
+document.write('<p>我们的封面设计被Advanced Optical Materials&nbsp;选为FrontCover！恭喜志鹏，小鹏，奥伟！</p><p><a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.70553" target="_blank">LINK</a></p>');
