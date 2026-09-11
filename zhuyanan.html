@@ -349,7 +349,7 @@
         <script>
             // 当网站被嵌入到iframe中时，如果发现链接属于栏目中的就要跳转到栏目的链接
             try {
-                if (top !== self && window.location.hostname === top.location.hostname && ["/","/index.html","/zhuyanan.html","/research.html","/yanjiulunwen.html","/members.html","/news.html","/publications.html","/null.html","/album.html","/null.html","/facilities.html","/null.html","/software.html","/lianxi.html","/null.html","/null.html","/ru.html","/cn.html","/en.html","/language.html","/cnlogin.html","/terms.html","/privacy.html","/refund.html","/cookie_policy.html","/videos.html","/downloads.html","/partners.html","/certificate.html","/gallery.html","/teams.html","/faq.html","/404.html","/custom_news.html","/custom_article.html","/custom_products.html","/custom_product.html","/member.html","/404.html"].includes(location.pathname)) {
+                if (top !== self && window.location.hostname === top.location.hostname && ["/","/index.html","/zhuyanan.html","/research.html","/yanjiulunwen.html","/members.html","/news.html","/publications.html","/null.html","/album.html","/null.html","/facilities.html","/null.html","/software.html","/lianxi.html","/null.html","/null.html","/cn.html","/en.html","/language.html","/cnlogin.html","/terms.html","/privacy.html","/refund.html","/cookie_policy.html","/videos.html","/downloads.html","/partners.html","/certificate.html","/gallery.html","/teams.html","/faq.html","/404.html","/custom_news.html","/custom_article.html","/custom_products.html","/custom_product.html","/member.html","/404.html"].includes(location.pathname)) {
                     top.location.href = location.href;
                 }
             } catch(e) {
@@ -822,7 +822,7 @@
                     </div>
                     
             </div>
-            <div x-data="{ to: new URLSearchParams(location.search).get('language') || localStorage.getItem('to') }" class="navigation-body  sm:mx-auto sm:px-0" :class="to!=='russian'?'sm:max-w-8xl':''">
+            <div x-data="{ to: new URLSearchParams(location.search).get('language') || localStorage.getItem('to') }" class="navigation-body  sm:mx-auto sm:px-0 sm:max-w-8xl">
                 <div class="navigation-body-header sm:!pl-0">
                     <div class="navigation-logo">
                         <a class="art-text text-primary" href="index.html">LOMS</a>
@@ -923,14 +923,7 @@
                                 <a class="navigation-link " href="javascript:;">Language</a>
                                 
             <ul class="navigation-dropdown   ">
-                
-                        <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="ru.html">Русский язык</a>
-                            
-                        </li>
-                    
-
-                        <li class="navigation-dropdown-item  ">
+<li class="navigation-dropdown-item  ">
                             <a class="navigation-dropdown-link" href="cn.html">中文</a>
                             
                         </li>
