@@ -1339,6 +1339,7 @@
                         if (__cMatch) params.set('c', __cMatch[1]);
                     }
                     if (params) {
+                        var alumniId = '12768';
                         if (params.get('c') || params.get('l')) {
                             // 选中分类、标签代码参考
                             $('.categorys li').removeClass('current');
@@ -1353,6 +1354,13 @@
                                 } else {
                                     return false;
                                 }
+                            });
+                        } else {
+                            // Default: hide Alumni; show current/in-group only
+                            list.filter(function (item) {
+                                var cid = String(item.values().categoryid || '');
+                                var tree = String(item.values().categorytree || '');
+                                return cid !== alumniId && tree.indexOf('/' + alumniId + '/') === -1;
                             });
                         }
                         if (params.get('k')) {
