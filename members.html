@@ -821,10 +821,16 @@
                             <li class="navigation-item is-active">
                                 <a class="navigation-link " href="members.html">Members</a>
                                 
-            <ul class="navigation-dropdown   ">
+                        <ul class="navigation-dropdown   ">
                 
                         <li class="navigation-dropdown-item  ">
                             <a class="navigation-dropdown-link" href="pi.html">Principal Investigator</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="members.html?c=12609">Research Assistant</a>
                             
                         </li>
                     
@@ -853,11 +859,6 @@
                         </li>
                     
 
-                        <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12609">Research Assistant</a>
-                            
-                        </li>
-                    
             </ul>
         
                             </li>
@@ -1007,8 +1008,24 @@
 
 
 
-    <h1 class="pt-8 md:pt-12 pb-0 text-center text-3xl md:text-5xl text-black">Members
-    </h1>
+    <h1 id="page-section-title" class="pt-8 md:pt-12 pb-0 text-center text-3xl md:text-5xl text-black">Members</h1>
+        <script>
+        (function () {
+            var map = {"11362": "Members-Principal Investigator", "12609": "Members-Research Assistants", "11361": "Members-PhD students", "11360": "Members-Master students", "12801": "Members-Undergraduates", "12769": "Members-Alumni"};
+            var params = new URLSearchParams(location.search);
+            if (!params.get('c')) {
+                var __m = location.pathname.match(/@c=(\d+)/);
+                if (__m) params.set('c', __m[1]);
+            }
+            var c = params.get('c');
+            var h1 = document.getElementById('page-section-title');
+            if (h1 && c && map[c]) {
+                h1.textContent = map[c];
+                document.title = map[c] + ' - LOMS';
+            }
+        })();
+        </script>
+
     
         <div component="articles2.js" data="{'id':11359}">
             
@@ -1283,7 +1300,7 @@
                 Alpine.store('list', {
                     len: list.matchingItems.length,
                     getCategoryList() {
-                        return [{"id":11362,"name":"Principal Investigator","tree":"11359/11362/"},{"id":11361,"name":"PhD Student","tree":"11359/11361/"},{"id":11360,"name":"Master student","tree":"11359/11360/"},{"id":12801,"name":"Undergraduate","tree":"11359/12801/"},{"id":12769,"name":"Alumni","tree":"11359/12769/"},{"id":12625,"name":"Useful Link","tree":"12625/"},{"id":12609,"name":"Research Assistant","tree":"11359/12609/"},{"id":11359,"name":"People","tree":"11359/"},{"id":11358,"name":"News","tree":"11358/"}];
+                        return [{"id": 11362, "name": "Principal Investigator", "tree": "11359/11362/"}, {"id": 12609, "name": "Research Assistant", "tree": "11359/12609/"}, {"id": 11361, "name": "PhD Student", "tree": "11359/11361/"}, {"id": 11360, "name": "Master student", "tree": "11359/11360/"}, {"id": 12801, "name": "Undergraduate", "tree": "11359/12801/"}, {"id": 12769, "name": "Alumni", "tree": "11359/12769/"}, {"id": 12625, "name": "Useful Link", "tree": "12625/"}, {"id": 11359, "name": "People", "tree": "11359/"}, {"id": 11358, "name": "News", "tree": "11358/"}];
                     },
                     getCategoryTreeArr(category_id) {
                         const category = this.getCategoryList().find(item => item.id === +category_id);
@@ -1341,8 +1358,9 @@
                             $('.categorys li[categoryid="' + params.get('c') + '"]').addClass('current');
                             }
                             list.filter(function (item) {
-                                if (params.get('c') && (item.values().categorytree.indexOf(params.get('c')) !== -1)) {
-                                    return true;
+                                if (params.get('c')) {
+                                    var cid = String(item.values().categoryid || '');
+                                    return cid === String(params.get('c'));
                                 } else if (params.get('l') && ((item.values().labels || '').indexOf(params.get('l')) !== -1)) {
                                     return true;
                                 } else {

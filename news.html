@@ -812,10 +812,16 @@
                             <li class="navigation-item ">
                                 <a class="navigation-link " href="members.html">Members</a>
                                 
-            <ul class="navigation-dropdown   ">
+                        <ul class="navigation-dropdown   ">
                 
                         <li class="navigation-dropdown-item  ">
                             <a class="navigation-dropdown-link" href="pi.html">Principal Investigator</a>
+                            
+                        </li>
+                    
+
+                        <li class="navigation-dropdown-item  ">
+                            <a class="navigation-dropdown-link" href="members.html?c=12609">Research Assistant</a>
                             
                         </li>
                     
@@ -844,11 +850,6 @@
                         </li>
                     
 
-                        <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12609">Research Assistant</a>
-                            
-                        </li>
-                    
             </ul>
         
                             </li>
@@ -1620,7 +1621,7 @@
                         Alpine.store('list', {
                             len: list.matchingItems.length,
                             getCategoryList() {
-                                return [{"id":11362,"name":"Principal Investigator","tree":"11359/11362/"},{"id":11361,"name":"PhD Student","tree":"11359/11361/"},{"id":11360,"name":"Master student","tree":"11359/11360/"},{"id":12769,"name":"Alumni","tree":"11359/12769/"},{"id":12625,"name":"Useful Link","tree":"12625/"},{"id":12609,"name":"Research Assistant","tree":"11359/12609/"},{"id":11359,"name":"People","tree":"11359/"},{"id":11358,"name":"News","tree":"11358/"}];
+                                return [{"id": 11362, "name": "Principal Investigator", "tree": "11359/11362/"}, {"id": 12609, "name": "Research Assistant", "tree": "11359/12609/"}, {"id": 11361, "name": "PhD Student", "tree": "11359/11361/"}, {"id": 11360, "name": "Master student", "tree": "11359/11360/"}, {"id": 12769, "name": "Alumni", "tree": "11359/12769/"}, {"id": 12625, "name": "Useful Link", "tree": "12625/"}, {"id": 11359, "name": "People", "tree": "11359/"}, {"id": 11358, "name": "News", "tree": "11358/"}];
                             },
                             getCategoryTreeArr(category_id) {
                                 const category = this.getCategoryList().find(item => item.id === +category_id);

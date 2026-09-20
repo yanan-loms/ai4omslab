@@ -826,7 +826,7 @@
                             <li class="navigation-item is-active">
                                 <a class="navigation-link " href="members.html">团队成员</a>
                                 
-            <ul class="navigation-dropdown   ">
+                        <ul class="navigation-dropdown   ">
                 
                         <li class="navigation-dropdown-item  ">
                             <a class="navigation-dropdown-link" href="pi.html">导师</a>
@@ -835,13 +835,13 @@
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12768">已毕业学生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12632">科研助理</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12632">科研助理</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12630">博士生</a>
                             
                         </li>
                     
@@ -859,7 +859,7 @@
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12630">博士生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12768">已毕业学生</a>
                             
                         </li>
                     
@@ -1013,7 +1013,23 @@
 
 
 
-    <h1 class="pt-8 md:pt-12 pb-0 text-center text-3xl md:text-5xl text-black">团队成员</h1>
+    <h1 id="page-section-title" class="pt-8 md:pt-12 pb-0 text-center text-3xl md:text-5xl text-black">团队成员</h1>
+        <script>
+        (function () {
+            var map = {"12631": "团队成员-导师", "12632": "团队成员-科研助理", "12630": "团队成员-博士生", "12629": "团队成员-硕士生", "12802": "团队成员-本科生", "12768": "团队成员-已毕业学生"};
+            var params = new URLSearchParams(location.search);
+            if (!params.get('c')) {
+                var __m = location.pathname.match(/@c=(\d+)/);
+                if (__m) params.set('c', __m[1]);
+            }
+            var c = params.get('c');
+            var h1 = document.getElementById('page-section-title');
+            if (h1 && c && map[c]) {
+                h1.textContent = map[c];
+                document.title = map[c] + ' - LOMS';
+            }
+        })();
+        </script>
 
 
     
@@ -1289,7 +1305,7 @@
                 Alpine.store('list', {
                     len: list.matchingItems.length,
                     getCategoryList() {
-                        return [{"id":12631,"name":"导师","tree":"12627/12631/"},{"id":12630,"name":"博士生","tree":"12627/12630/"},{"id":12629,"name":"硕士生","tree":"12627/12629/"},{"id":12802,"name":"本科生","tree":"12627/12802/"},{"id":12768,"name":"已毕业学生","tree":"12627/12768/"},{"id":12628,"name":"资源链接","tree":"12628/"},{"id":12632,"name":"科研助理","tree":"12627/12632/"},{"id":12627,"name":"团队成员","tree":"12627/"},{"id":12626,"name":"新闻","tree":"12626/"}];
+                        return [{"id":12631,"name":"导师","tree":"12627/12631/"},{"id":12632,"name":"科研助理","tree":"12627/12632/"},{"id":12630,"name":"博士生","tree":"12627/12630/"},{"id":12629,"name":"硕士生","tree":"12627/12629/"},{"id":12802,"name":"本科生","tree":"12627/12802/"},{"id":12768,"name":"已毕业学生","tree":"12627/12768/"},{"id":12628,"name":"资源链接","tree":"12628/"},{"id":12627,"name":"团队成员","tree":"12627/"},{"id":12626,"name":"新闻","tree":"12626/"}];
                     },
                     getCategoryTreeArr(category_id) {
                         const category = this.getCategoryList().find(item => item.id === +category_id);
@@ -1347,8 +1363,9 @@
                             $('.categorys li[categoryid="' + params.get('c') + '"]').addClass('current');
                             }
                             list.filter(function (item) {
-                                if (params.get('c') && (item.values().categorytree.indexOf(params.get('c')) !== -1)) {
-                                    return true;
+                                if (params.get('c')) {
+                                    var cid = String(item.values().categoryid || '');
+                                    return cid === String(params.get('c'));
                                 } else if (params.get('l') && ((item.values().labels || '').indexOf(params.get('l')) !== -1)) {
                                     return true;
                                 } else {

@@ -822,7 +822,7 @@
                             <li class="navigation-item ">
                                 <a class="navigation-link " href="members.html">团队成员</a>
                                 
-            <ul class="navigation-dropdown   ">
+                        <ul class="navigation-dropdown   ">
                 
                         <li class="navigation-dropdown-item  ">
                             <a class="navigation-dropdown-link" href="pi.html">导师</a>
@@ -831,13 +831,13 @@
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12768">已毕业学生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12632">科研助理</a>
                             
                         </li>
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12632">科研助理</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12630">博士生</a>
                             
                         </li>
                     
@@ -855,10 +855,11 @@
                     
 
                         <li class="navigation-dropdown-item  ">
-                            <a class="navigation-dropdown-link" href="members.html?c=12630">博士生</a>
+                            <a class="navigation-dropdown-link" href="members.html?c=12768">已毕业学生</a>
                             
                         </li>
                     
+
             </ul>
         
                             </li>
@@ -1111,7 +1112,7 @@
                 Alpine.store('list', {
                     len: list.matchingItems.length,
                     getCategoryList() {
-                        return [{"id":12631,"name":"导师","tree":"12627/12631/"},{"id":12630,"name":"博士生","tree":"12627/12630/"},{"id":12629,"name":"硕士生","tree":"12627/12629/"},{"id":12768,"name":"已毕业学生","tree":"12627/12768/"},{"id":12628,"name":"资源链接","tree":"12628/"},{"id":12632,"name":"科研助理","tree":"12627/12632/"},{"id":12627,"name":"团队成员","tree":"12627/"},{"id":12626,"name":"新闻","tree":"12626/"}];
+                        return [{"id": 12631, "name": "导师", "tree": "12627/12631/"}, {"id": 12632, "name": "科研助理", "tree": "12627/12632/"}, {"id": 12630, "name": "博士生", "tree": "12627/12630/"}, {"id": 12629, "name": "硕士生", "tree": "12627/12629/"}, {"id": 12768, "name": "已毕业学生", "tree": "12627/12768/"}, {"id": 12628, "name": "资源链接", "tree": "12628/"}, {"id": 12627, "name": "团队成员", "tree": "12627/"}, {"id": 12626, "name": "新闻", "tree": "12626/"}];
                     },
                     getCategoryTreeArr(category_id) {
                         const category = this.getCategoryList().find(item => item.id === +category_id);
