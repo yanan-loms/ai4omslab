@@ -1352,11 +1352,6 @@
                     if (params) {
                         var alumniId = '12769';
                         if (params.get('c') || params.get('l')) {
-                            // 选中分类、标签代码参考
-                            $('.categorys li').removeClass('current');
-                            if (params.get('c')) {
-                            $('.categorys li[categoryid="' + params.get('c') + '"]').addClass('current');
-                            }
                             list.filter(function (item) {
                                 if (params.get('c')) {
                                     var cid = String(item.values().categoryid || '');
