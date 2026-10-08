@@ -54,6 +54,12 @@
                     <changefreq>Always</changefreq>
                 </url>
 <url>
+                    <loc>http://www.ai4omslab.net/cn/newcomer-guide.html</loc>
+                    <priority>1.00</priority>
+                    <lastmod>2026-10-08</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+<url>
                     <loc>http://www.ai4omslab.net/cn/contact.html</loc>
                     <priority>1.00</priority>
                     <lastmod>2026-08-31</lastmod>
