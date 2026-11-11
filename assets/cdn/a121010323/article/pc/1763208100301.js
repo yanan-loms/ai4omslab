@@ -1,0 +1,1 @@
+document.write('<p>Our work on generating 3D molecular geometries from chemical syntax is now available as a preprint.</p><p><a href="https://arxiv.org/abs/2512.10991" target="_blank">MolSculpt: Sculpting 3D Molecular Geometries from Chemical Syntax</a></p><p><img src="assets/news/2026-update/molsculpt-framework.jpg" alt="" style="max-width:100%;"></p>');

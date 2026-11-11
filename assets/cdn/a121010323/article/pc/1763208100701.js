@@ -1,0 +1,1 @@
+document.write('<p>Our work on OLED molecular design is now available as a preprint.</p><p><a href="https://arxiv.org/abs/2607.20194" target="_blank">OLEDLM: A Unified Language Model for OLED Molecular Design</a></p><p><img src="assets/news/2026-update/oledlm-fig1.jpg" alt="" style="max-width:100%;"></p>');

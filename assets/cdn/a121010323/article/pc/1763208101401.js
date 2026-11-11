@@ -1,0 +1,1 @@
+document.write('<p>恭喜小鹏的文章被《Small Methods》接收！</p><p><a href="https://doi.org/10.1002/smtd.202501937" target="_blank">A Diarylethene-Based Polymer Additive for Suppressed Dark Current and Enhanced Photo-Response in Organic Photodiodes</a></p><p><img src="../assets/news/2026-update/smallmethods-card.jpg" alt="" style="max-width:100%;"></p>');

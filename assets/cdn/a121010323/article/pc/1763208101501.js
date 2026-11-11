@@ -1,0 +1,1 @@
+document.write('<p>祝贺易鸣和志鹏的文章被《Physical Chemistry Chemical Physics》接收！</p><p><a href="https://doi.org/10.1039/d5cp04909a" target="_blank">Cathodo- and X-ray excited luminescence of europium tri- and tetracarboxybenzoates and phenanthroline</a></p><p><img src="../assets/news/2026-update/pccp-card.jpg" alt="" style="max-width:100%;"></p>');

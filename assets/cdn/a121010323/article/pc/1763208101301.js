@@ -1,0 +1,1 @@
+document.write('<p>我们在从化学句法生成三维分子几何方向的工作在预印本平台上线。</p><p><a href="https://arxiv.org/abs/2512.10991" target="_blank">MolSculpt: Sculpting 3D Molecular Geometries from Chemical Syntax</a></p><p><img src="../assets/news/2026-update/molsculpt-framework.jpg" alt="" style="max-width:100%;"></p>');

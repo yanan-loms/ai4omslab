@@ -1,0 +1,1 @@
+document.write('<p>我们在OLED分子设计方向的工作在预印本平台上线。</p><p><a href="https://arxiv.org/abs/2607.20194" target="_blank">OLEDLM: A Unified Language Model for OLED Molecular Design</a></p><p><img src="../assets/news/2026-update/oledlm-fig1.jpg" alt="" style="max-width:100%;"></p>');

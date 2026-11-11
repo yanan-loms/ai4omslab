@@ -1,0 +1,1 @@
+document.write('<p>恭喜小鹏，张虎，舜禹，志鹏和奥伟的文章被《Journal of Materials Informatics》接收！</p><p><a href="https://doi.org/10.20517/jmi.2025.92" target="_blank">Decoding donor/acceptor hierarchy in DAD triads via fragment-centric machine learning</a></p><p><img src="../assets/news/2026-update/jmi-ga.jpg" alt="" style="max-width:100%;"></p>');

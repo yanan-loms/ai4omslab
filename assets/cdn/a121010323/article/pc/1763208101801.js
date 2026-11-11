@@ -1,0 +1,1 @@
+document.write('<p>祝贺易鸣的文章被《Ceramics International》接收！</p><p><a href="https://doi.org/10.1016/j.ceramint.2026.08.446" target="_blank">Narrowband X-ray-to-UVC Conversion in Gd-Doped Inorganic Hosts</a></p><p><img src="../assets/news/2026-update/ceramics-fig.jpg" alt="" style="max-width:100%;"></p>');
