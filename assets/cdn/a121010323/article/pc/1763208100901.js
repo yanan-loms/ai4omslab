@@ -1,0 +1,1 @@
+document.write('<p>Congratulations to Yiming on receiving the university’s 2026 Research Scholarship Special Prize!</p><p><img src="assets/news/2026-update/yiming-scholarship-2026.jpg" alt="" style="max-width:100%;"></p>');

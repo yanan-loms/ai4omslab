@@ -132,6 +132,12 @@
                     <changefreq>Always</changefreq>
                 </url>
             <url>
+                    <loc>http://www.ai4omslab.net/article_81009.html</loc>
+                    <priority>0.80</priority>
+                    <lastmod>2026-11-17</lastmod>
+                    <changefreq>Always</changefreq>
+                </url>
+            <url>
                     <loc>http://www.ai4omslab.net/article_81008.html</loc>
                     <priority>0.80</priority>
                     <lastmod>2026-11-11</lastmod>
