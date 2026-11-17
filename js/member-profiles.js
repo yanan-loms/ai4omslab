@@ -181,7 +181,9 @@ window.LOMS_MEMBERS = {
         "Master student · 2026–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Kinetic analysis and device simulation of OLED materials"
+      ],
       "draft": [],
       "links": []
     },
@@ -192,7 +194,9 @@ window.LOMS_MEMBERS = {
         "2026年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "OLED材料动力学分析与器件模拟"
+      ],
       "draft": [],
       "links": []
     }

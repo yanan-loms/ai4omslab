@@ -103,7 +103,7 @@
     var stated = view.stated || [];
     var draft = view.draft || [];
     if (!stated.length && !draft.length) {
-        root.appendChild(el("p", "text-gray-500", isCn ? "研究兴趣待补充" : "Research interests to be added"));
+        root.appendChild(el("p", "text-gray-500", "NA"));
     } else {
         if (stated.length) {
             root.appendChild(el("p", "text-sm text-gray-500 mb-2", isCn ? "组内已有表述" : "Stated in group materials"));
@@ -130,7 +130,7 @@
 
     if (!publications.length && !preprints.length) {
         root.appendChild(el("h2", "mt-10 mb-4 text-2xl md:text-4xl text-primary", isCn ? "论文" : "Publications"));
-        root.appendChild(el("p", "text-gray-500", isCn ? "暂无已核实的论文记录" : "No verified publications listed yet"));
+        root.appendChild(el("p", "text-gray-500", "NA"));
         return;
     }
     if (publications.length) renderPaperGroup(isCn ? "论文" : "Publications", publications);
