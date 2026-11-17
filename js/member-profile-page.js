@@ -107,21 +107,11 @@
 
     var stated = view.stated || [];
     var draft = view.draft || [];
-    if (!stated.length && !draft.length) {
+    var interests = stated.concat(draft);
+    if (!interests.length) {
         root.appendChild(el("p", "text-gray-500", "NA"));
     } else {
-        if (stated.length) {
-            root.appendChild(el("p", "text-sm text-gray-500 mb-2", isCn ? "组内已有表述" : "Stated in group materials"));
-            root.appendChild(chips(stated));
-        }
-        if (draft.length) {
-            root.appendChild(el(
-                "p",
-                "text-sm text-gray-500 mt-4 mb-2",
-                isCn ? "论文主题草稿（待确认，并非已核定课题）" : "Review draft from authored papers — not a confirmed assignment"
-            ));
-            root.appendChild(chips(draft));
-        }
+        root.appendChild(chips(interests));
     }
 
     var chosen = (member.papers || []).map(function (num) {
