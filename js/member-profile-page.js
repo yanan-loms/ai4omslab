@@ -6,6 +6,10 @@
 
     var params = new URLSearchParams(location.search);
     var id = params.get("id");
+    if (id === "zhu-yanan") {
+        location.replace("pi.html");
+        return;
+    }
     var member = (window.LOMS_MEMBERS || {})[id];
     var byNum = {};
     (window.LOMS_PAPERS || []).forEach(function (paper) {
@@ -48,6 +52,10 @@
             li.appendChild(titleP);
             li.appendChild(authors);
             li.appendChild(venue);
+            var notes = member.paperNotes && member.paperNotes[String(paper.num)];
+            if (notes && notes[pack]) {
+                li.appendChild(el("p", "text-sm text-gray-500", notes[pack]));
+            }
             if (paper.link) {
                 var link = el("a", "text-[#007aff]", "Link");
                 link.href = paper.link;
@@ -90,12 +98,12 @@
         root.appendChild(link);
     });
 
-    root.appendChild(el("h2", "mt-10 mb-4 text-2xl md:text-4xl text-primary", isCn ? "研究方向" : "Research direction"));
+    root.appendChild(el("h2", "mt-10 mb-4 text-2xl md:text-4xl text-primary", isCn ? "研究兴趣" : "Research interests"));
 
     var stated = view.stated || [];
     var draft = view.draft || [];
     if (!stated.length && !draft.length) {
-        root.appendChild(el("p", "text-gray-500", isCn ? "研究方向待补充" : "Research interests to be added"));
+        root.appendChild(el("p", "text-gray-500", isCn ? "研究兴趣待补充" : "Research interests to be added"));
     } else {
         if (stated.length) {
             root.appendChild(el("p", "text-sm text-gray-500 mb-2", isCn ? "组内已有表述" : "Stated in group materials"));

@@ -1,140 +1,16 @@
 /* Review data. Paper-draft keywords are not confirmed assignments. */
 window.LOMS_MEMBERS = {
-  "zhu-yanan": {
-    "papers": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77
-    ],
-    "en": {
-      "name": "Zhu Yanan",
-      "roles": [
-        "Principal Investigator · 2022–"
-      ],
-      "backHref": "members.html",
-      "stated": [
-        "Organic optoelectronics",
-        "Luminescent-material design",
-        "Excited-state simulation",
-        "Perovskite–organic interfaces",
-        "AI methods for organic materials",
-        "Energy-storage materials"
-      ],
-      "draft": [],
-      "links": [
-        {
-          "href": "pi.html",
-          "text": "Full profile"
-        }
-      ]
-    },
-    "cn": {
-      "name": "朱亚楠",
-      "roles": [
-        "导师",
-        "2022年-"
-      ],
-      "backHref": "members.html",
-      "stated": [
-        "有机光电材料",
-        "发光材料分子设计",
-        "激发态模拟",
-        "有机分子界面",
-        "有机材料人工智能",
-        "储能材料"
-      ],
-      "draft": [],
-      "links": [
-        {
-          "href": "pi.html",
-          "text": "完整介绍"
-        }
-      ]
-    }
-  },
   "zhang-meng": {
     "papers": [],
     "en": {
-      "name": "Zhang Meng",
+      "name": "Meng Zhang",
       "roles": [
         "Research Assistant · 2025–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Molecular design and excited-state mechanism of MR-TADF materials"
+      ],
       "draft": [],
       "links": []
     },
@@ -145,7 +21,9 @@ window.LOMS_MEMBERS = {
         "2025年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "MR-TADF材料的分子设计与激发态机理研究"
+      ],
       "draft": [],
       "links": []
     }
@@ -153,12 +31,14 @@ window.LOMS_MEMBERS = {
   "xue-chenshuang": {
     "papers": [],
     "en": {
-      "name": "Xue Chenshuang",
+      "name": "Chenshuang Xue",
       "roles": [
         "Research Assistant · 2026–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Data processing for an organic-reaction platform"
+      ],
       "draft": [],
       "links": []
     },
@@ -169,7 +49,9 @@ window.LOMS_MEMBERS = {
         "2026年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "有机化学反应平台数据处理"
+      ],
       "draft": [],
       "links": []
     }
@@ -177,12 +59,14 @@ window.LOMS_MEMBERS = {
   "su-guozheng": {
     "papers": [],
     "en": {
-      "name": "Su Guozheng",
+      "name": "Guozheng Su",
       "roles": [
         "Research Assistant · 2025–2026"
       ],
       "backHref": "members.html?c=12769",
-      "stated": [],
+      "stated": [
+        "Server maintenance"
+      ],
       "draft": [],
       "links": []
     },
@@ -193,7 +77,9 @@ window.LOMS_MEMBERS = {
         "科研助理 · 2025年-2026年"
       ],
       "backHref": "members.html?c=12768",
-      "stated": [],
+      "stated": [
+        "服务器维护"
+      ],
       "draft": [],
       "links": []
     }
@@ -207,7 +93,7 @@ window.LOMS_MEMBERS = {
       63
     ],
     "en": {
-      "name": "Yin Yiming",
+      "name": "Yiming Yin",
       "roles": [
         "PhD student · 2024–"
       ],
@@ -260,7 +146,7 @@ window.LOMS_MEMBERS = {
       66
     ],
     "en": {
-      "name": "Liu Yaxuan",
+      "name": "Yaxuan Liu",
       "roles": [
         "Master student · 2024–"
       ],
@@ -290,7 +176,7 @@ window.LOMS_MEMBERS = {
   "li-lei": {
     "papers": [],
     "en": {
-      "name": "Li Lei",
+      "name": "Lei Li",
       "roles": [
         "Master student · 2026–"
       ],
@@ -314,12 +200,14 @@ window.LOMS_MEMBERS = {
   "huang-yuge": {
     "papers": [],
     "en": {
-      "name": "Huang Yuge",
+      "name": "Yuge Huang",
       "roles": [
         "Master student (visiting student) · 2026–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Mobility model development"
+      ],
       "draft": [],
       "links": []
     },
@@ -330,7 +218,9 @@ window.LOMS_MEMBERS = {
         "2026年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "迁移率模型开发"
+      ],
       "draft": [],
       "links": []
     }
@@ -338,12 +228,14 @@ window.LOMS_MEMBERS = {
   "cai-caigao": {
     "papers": [],
     "en": {
-      "name": "Cai Caigao",
+      "name": "Caigao Cai",
       "roles": [
         "Master student · 2026–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "AI-driven MR-TADF lifetime-factor research"
+      ],
       "draft": [],
       "links": [
         {
@@ -360,7 +252,9 @@ window.LOMS_MEMBERS = {
         "2026年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "AI驱动的MR-TADF寿命因子研究"
+      ],
       "draft": [],
       "links": [
         {
@@ -376,12 +270,14 @@ window.LOMS_MEMBERS = {
       64
     ],
     "en": {
-      "name": "Sun Siqin",
+      "name": "Siqin Sun",
       "roles": [
         "Master student · 2024–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Organic electrochromic materials and devices"
+      ],
       "draft": [],
       "links": [
         {
@@ -398,7 +294,9 @@ window.LOMS_MEMBERS = {
         "2024年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "有机电致变色材料与器件"
+      ],
       "draft": [],
       "links": [
         {
@@ -412,12 +310,14 @@ window.LOMS_MEMBERS = {
   "yang-bowen": {
     "papers": [],
     "en": {
-      "name": "Yang Bowen",
+      "name": "Bowen Yang",
       "roles": [
         "Undergraduate · 2024–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "AI agent models for OLED"
+      ],
       "draft": [],
       "links": []
     },
@@ -428,7 +328,9 @@ window.LOMS_MEMBERS = {
         "2024年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "OLED领域的AI智能体模型研究"
+      ],
       "draft": [],
       "links": []
     }
@@ -436,12 +338,14 @@ window.LOMS_MEMBERS = {
   "rui-bohan": {
     "papers": [],
     "en": {
-      "name": "Rui Bohan",
+      "name": "Bohan Rui",
       "roles": [
         "Undergraduate · 2024–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Mobility model development"
+      ],
       "draft": [],
       "links": []
     },
@@ -452,7 +356,9 @@ window.LOMS_MEMBERS = {
         "2024年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "迁移率模型开发"
+      ],
       "draft": [],
       "links": []
     }
@@ -460,12 +366,14 @@ window.LOMS_MEMBERS = {
   "liu-yuchen": {
     "papers": [],
     "en": {
-      "name": "Liu Yuchen",
+      "name": "Yuchen Liu",
       "roles": [
         "Undergraduate · 2024–"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "Retrosynthetic models for OLED materials"
+      ],
       "draft": [],
       "links": []
     },
@@ -476,7 +384,9 @@ window.LOMS_MEMBERS = {
         "2024年-"
       ],
       "backHref": "members.html",
-      "stated": [],
+      "stated": [
+        "OLED材料的逆合成模型研究"
+      ],
       "draft": [],
       "links": []
     }
@@ -484,7 +394,7 @@ window.LOMS_MEMBERS = {
   "li-yu": {
     "papers": [],
     "en": {
-      "name": "Li Yu",
+      "name": "Yu Li",
       "roles": [
         "Undergraduate · 2025–"
       ],
@@ -514,7 +424,7 @@ window.LOMS_MEMBERS = {
       61
     ],
     "en": {
-      "name": "Wang Shunyu",
+      "name": "Shunyu Wang",
       "roles": [
         "Master student · 2023–2026"
       ],
@@ -569,7 +479,7 @@ window.LOMS_MEMBERS = {
       49
     ],
     "en": {
-      "name": "Zhou Aowei",
+      "name": "Aowei Zhou",
       "roles": [
         "PhD student · BIT · 2025–",
         "Master student · 2023–2025"
@@ -620,7 +530,7 @@ window.LOMS_MEMBERS = {
       49
     ],
     "en": {
-      "name": "Guo Zhipeng",
+      "name": "Zhipeng Guo",
       "roles": [
         "Master student · 2023–2025"
       ],
@@ -663,14 +573,24 @@ window.LOMS_MEMBERS = {
     "papers": [
       73
     ],
+    "paperNotes": {
+      "73": {
+        "en": "Co-first authors: Hu Zhang and Xiaopeng Zhang. Supplied for review. The publication list does not mark equal contribution, so the author line is unchanged.",
+        "cn": "共同第一作者：张虎、张小鹏。此条供核对。论文列表未标注同等贡献，作者行保持原样。"
+      }
+    },
     "en": {
-      "name": "Zhang Hu",
+      "name": "Hu Zhang",
       "roles": [
         "Master student · 2022–2025"
       ],
       "backHref": "members.html?c=12769",
       "stated": [],
-      "draft": [],
+      "draft": [
+        "Donor–acceptor hierarchy",
+        "DAD triads",
+        "Fragment-centric machine learning"
+      ],
       "links": [
         {
           "href": "http://web.pkusz.edu.cn/menghong/",
@@ -687,7 +607,11 @@ window.LOMS_MEMBERS = {
       ],
       "backHref": "members.html?c=12768",
       "stated": [],
-      "draft": [],
+      "draft": [
+        "给体–受体层级",
+        "DAD三联体",
+        "片段机器学习"
+      ],
       "links": [
         {
           "href": "http://web.pkusz.edu.cn/menghong/",
@@ -698,6 +622,12 @@ window.LOMS_MEMBERS = {
     }
   },
   "zhang-xiaopeng": {
+    "paperNotes": {
+      "73": {
+        "en": "Co-first authors: Hu Zhang and Xiaopeng Zhang. Supplied for review. The publication list does not mark equal contribution, so the author line is unchanged.",
+        "cn": "共同第一作者：张虎、张小鹏。此条供核对。论文列表未标注同等贡献，作者行保持原样。"
+      }
+    },
     "papers": [
       73,
       70,
@@ -710,7 +640,7 @@ window.LOMS_MEMBERS = {
       35
     ],
     "en": {
-      "name": "Zhang Xiaopeng",
+      "name": "Xiaopeng Zhang",
       "roles": [
         "PhD student · 2022–"
       ],
