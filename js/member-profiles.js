@@ -430,9 +430,10 @@ window.LOMS_MEMBERS = {
     "en": {
       "name": "Shunyu Wang",
       "roles": [
+        "Research Assistant · 2026–",
         "Master student · 2023–2026"
       ],
-      "backHref": "members.html?c=12769",
+      "backHref": "members.html",
       "stated": [
         "Dn–A emitters",
         "Steric and electronic effects",
@@ -452,10 +453,12 @@ window.LOMS_MEMBERS = {
     "cn": {
       "name": "王舜禹",
       "roles": [
+        "科研助理",
+        "2026年-",
         "已毕业学生",
         "硕士生 · 2023年-2026年"
       ],
-      "backHref": "members.html?c=12768",
+      "backHref": "members.html",
       "stated": [
         "多给体给受体",
         "立体与电子效应",
