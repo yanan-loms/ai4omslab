@@ -10,6 +10,11 @@
         location.replace("pi.html");
         return;
     }
+    if (id === "liu-yuchen") {
+        params.set("id", "zhang-yuchen");
+        location.replace(location.pathname + "?" + params.toString() + location.hash);
+        return;
+    }
     var member = (window.LOMS_MEMBERS || {})[id];
     var byNum = {};
     (window.LOMS_PAPERS || []).forEach(function (paper) {
