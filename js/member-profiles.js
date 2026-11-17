@@ -367,10 +367,10 @@ window.LOMS_MEMBERS = {
       "links": []
     }
   },
-  "liu-yuchen": {
+  "zhang-yuchen": {
     "papers": [],
     "en": {
-      "name": "Yuchen Liu",
+      "name": "Yuchen Zhang",
       "roles": [
         "Undergraduate · 2024–"
       ],
@@ -382,7 +382,7 @@ window.LOMS_MEMBERS = {
       "links": []
     },
     "cn": {
-      "name": "刘宇辰",
+      "name": "张宇辰",
       "roles": [
         "本科生",
         "2024年-"
